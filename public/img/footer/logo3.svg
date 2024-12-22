@@ -1,0 +1,36 @@
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_2028_20839)">
+<g clip-path="url(#clip0_2028_20839)">
+<rect y="0.5" width="28" height="28" rx="6.33962" fill="white" fill-opacity="0.01"/>
+<g filter="url(#filter1_f_2028_20839)">
+<circle cx="17" cy="38.5" r="11" fill="white" fill-opacity="0.5"/>
+</g>
+<g clip-path="url(#clip1_2028_20839)">
+<path d="M15.3319 13.5583L20.5437 7.5H19.3087L14.7833 12.7603L11.1688 7.5H7L12.4657 15.4546L7 21.8076H8.2351L13.0141 16.2525L16.8312 21.8076H21L15.3316 13.5583H15.3319ZM13.6403 15.5247L13.0865 14.7326L8.68013 8.42977H10.5772L14.1331 13.5163L14.6869 14.3084L19.3093 20.9202H17.4122L13.6403 15.525V15.5247Z" fill="white"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_i_2028_20839" x="0" y="0.5" width="28" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_2028_20839"/>
+</filter>
+<filter id="filter1_f_2028_20839" x="-14" y="7.5" width="62" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_2028_20839"/>
+</filter>
+<clipPath id="clip0_2028_20839">
+<rect y="0.5" width="28" height="28" rx="6.33962" fill="white"/>
+</clipPath>
+<clipPath id="clip1_2028_20839">
+<rect width="14" height="14.315" fill="white" transform="translate(7 7.5)"/>
+</clipPath>
+</defs>
+</svg>
