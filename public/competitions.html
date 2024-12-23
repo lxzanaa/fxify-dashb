@@ -518,7 +518,7 @@
             </div>
             <div class="pt-10 bg-no-repeat w-full bg-cover px-6 "
                 style="background-image: url(./img/competitions/bg.png);">
-                <div class="mb-8" >
+                <div class="mb-8">
                     <div class="flex max-w-[922px] mx-auto items-center gap-4 mb-8">
                         <span>
                             <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
@@ -850,6 +850,69 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <div class="flex items-center gap-2 mb-5">
+                    <span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.7 1.66602H7.29995C4.16662 1.66602 3.92495 4.48268 5.61662 6.01602L14.3833 13.9827C16.075 15.516 15.8333 18.3327 12.7 18.3327H7.29995C4.16662 18.3327 3.92495 15.516 5.61662 13.9827L14.3833 6.01602C16.075 4.48268 15.8333 1.66602 12.7 1.66602Z"
+                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <p class="text-white text-lg">Upcoming</p>
+                </div>
+
+                <div>
+                    <div class="flex items-end mb-4">
+                        <div>
+                            <p class="text-white text-sm mb-4">Current</p>
+                            <div class="flex items-center gap-3 p-1 border border-white/10 rounded-xl">
+                                <button
+                                    class="py-2 px-4 rounded-lg text-white text-sm overflow-hidden border border-[#4852F533] relative"
+                                    style="background: #4852F50D;">
+                                    <img class="absolute bottom-0 left-0 top-0 h-full "
+                                        src="./img/competitions/dots-shadow.png" alt="shadow">
+                                    2024
+                                </button>
+                                <button class="py-2 px-4 rounded-lg text-white/50 text-sm">2023</button>
+                            </div>
+                        </div>
+                        <button class="swiper-button-prev2 p-[11px] rounded-xl border border-[#FFFFFF1A] flex ml-auto">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.5769 11.0425L5.24899 7.7146C4.85597 7.32158 4.85597 6.67846 5.24899 6.28544L8.5769 2.95752"
+                                    stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="swiper-button-next2 p-[11px] rounded-xl border border-[#FFFFFF1A] flex ml-2">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.4231 11.0425L8.75101 7.7146C9.14403 7.32158 9.14403 6.67846 8.75101 6.28544L5.4231 2.95752"
+                                    stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="swiper mySwiper2 pb-6">
+                        <div class="swiper-wrapper pb-6 gap-3">
+                            <div class="swiper-slide">
+                                <div class="max-w-[219px] w-full max-h-[329px] ">
+                                    <img class="max-w-[217px] w-full object-cover h-[148px]" src="./img/competitions/cup-slide.png" alt="slide">
+                                    <div>
+                                        <span class="text-white text-sm py-1.5 px-3 border border-[#99DAFF4D] rounded-full bg-[#3A48E0] mb-4 -translate-y-40" style="box-shadow: 0px 4px 4px 0px #00000040 inset;" >Now</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+            </div>
             <footer>
                 <div class="rounded-2xl w-full mx-auto border border-white/10 mb-[52px] border-b-0"
                     style="background: linear-gradient(165.83deg, rgba(255, 255, 255, 0.024) 4.29%, rgba(255, 255, 255, 0.01) 72.39%); ">
@@ -886,6 +949,9 @@
             </footer>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
