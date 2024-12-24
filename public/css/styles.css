@@ -748,6 +748,9 @@ video {
 .max-w-\[1200px\] {
   max-width: 1200px;
 }
+.max-w-\[159px\] {
+  max-width: 159px;
+}
 .max-w-\[17\%\] {
   max-width: 17%;
 }
@@ -796,20 +799,15 @@ video {
 .max-w-\[922px\] {
   max-width: 922px;
 }
+.flex-grow {
+  flex-grow: 1;
+}
 .-translate-x-\[50\%\] {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .-translate-y-10 {
   --tw-translate-y: -2.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.-translate-y-20 {
-  --tw-translate-y: -5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.-translate-y-40 {
-  --tw-translate-y: -10rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .rotate-180 {
@@ -917,6 +915,9 @@ video {
 }
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 .rounded-2xl {
   border-radius: 1rem;
@@ -1085,12 +1086,6 @@ video {
 .bg-top {
   background-position: top;
 }
-.bg-center {
-  background-position: center;
-}
-.bg-bottom {
-  background-position: bottom;
-}
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1251,6 +1246,9 @@ video {
 .pb-\[40px\] {
   padding-bottom: 40px;
 }
+.pl-3 {
+  padding-left: 0.75rem;
+}
 .pl-4 {
   padding-left: 1rem;
 }
@@ -1259,6 +1257,9 @@ video {
 }
 .pl-6 {
   padding-left: 1.5rem;
+}
+.pl-\[18\%\] {
+  padding-left: 18%;
 }
 .pr-2 {
   padding-right: 0.5rem;
@@ -1493,127 +1494,141 @@ video {
   transition-duration: 300ms;
 }
 
-
 @font-face {
-    font-family: 'Aventa';
-    src: url('/public/fonts/ellenluff-aventa/EllenLuff - Aventa Light.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Aventa';
+  src: url('/public/fonts/ellenluff-aventa/EllenLuff - Aventa Light.otf')
+    format('otf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Aventa', sans-serif;
+  font-family: 'Aventa', sans-serif;
 }
 
 .title {
-    font-size: 18px !important;
-    font-weight: 400 !important;
-    line-height: 13px !important;
-    color: white !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 13px !important;
+  color: white !important;
 }
 
 .swiper-pagination {
-    all: unset !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+  all: unset !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .swiper-container {
-    overflow: visible !important;
+  overflow: visible !important;
 }
 
 .custom-dot {
-    width: 10px !important;
-    height: 10px !important;
-    margin: 0 5px !important;
-    background-color: #ccc !important;
-    border-radius: 50% !important;
-    cursor: pointer !important;
-    transition: background-color 0.3s ease !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 5px !important;
+  background-color: #ccc !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
 }
 
 .custom-dot.active {
-    background-color: #007aff !important;
+  background-color: #007aff !important;
 }
 
 .swiper-pagination-bullet {
-    width: 6px !important;
-    height: 6px !important;
-    background-color: #ffffff66 !important;
+  width: 6px !important;
+  height: 6px !important;
+  background-color: #ffffff66 !important;
 }
 
 .swiper-pagination-bullet-active {
-    width: 10px !important;
-    height: 10px !important;
-    background-color: #ffffff !important;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #ffffff !important;
 }
 
 .swiper-pagination {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 /* Custom Pagination for .custom-pagination-1 */
 .custom-pagination-1 {
-    all: unset !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+  all: unset !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .swiper-container {
-    overflow: visible !important;
+  overflow: visible !important;
 }
 
 /* Custom Dot Styling */
 
 .custom-pagination-1 .custom-dot {
-    width: 10px !important;
-    height: 10px !important;
-    margin: 0 5px !important;
-    background-color: #ccc !important;
-    border-radius: 50% !important;
-    cursor: pointer !important;
-    transition: background-color 0.3s ease !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 5px !important;
+  background-color: #ccc !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
 }
 
 /* Active Dot Styling */
 .custom-pagination-1 .custom-dot.active {
-    background-color: #007aff !important;
+  background-color: #007aff !important;
 }
 
 /* Pagination Bullet Styles (Default) */
 .custom-pagination-1 .swiper-pagination-bullet {
-    width: 6px !important;
-    height: 6px !important;
-    background-color: #f2f2f2 !important;
+  width: 6px !important;
+  height: 6px !important;
+  background-color: #f2f2f2 !important;
 }
 
 /* Pagination Bullet Styles (Active) */
 .custom-pagination-1 .swiper-pagination-bullet-active {
-    width: 10px !important;
-    height: 10px !important;
-    background-color: #ffffff !important;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #ffffff !important;
 }
 
 .custom-pagination-1 {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .table-statistics:last-child {
-    border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
 }
 
 .table-statistics:first-child {
-    border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .checked\:bg-\[\#3A48E0\]:checked {
