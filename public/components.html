@@ -12,13 +12,13 @@
 
 <body class="bg-[#0D0E10]">
     <div class="flex gap-6">
-        <div class="max-w-[17%] w-full h-full border-r border-r-white/10 py-10 px-6">
+        <div class="custom-scroll flex flex-col max-w-[17%] w-full h-full fixed overflow-y-scroll border-r border-r-white/10 py-10 px-6">
             <a href="./index.html" class="mb-6 flex">
                 <img src="./img/header/logo.svg" alt="logo">
             </a>
             <a class="mb-6 flex items-center gap-4 text-white text-sm py-3 px-9 bg-[#3A48E0] rounded-lg relative transition-all duration-300 hover:opacity-80 border border-[#99DAFF4D]"
                 href="#">
-                <img class="absolute bottom-0 left-0" src="./img/header/shadow.png" alt="shadow">
+                <img class="absolute w-full object-cover h-full bottom-0 left-0" src="./img/header/shadow.png" alt="shadow">
                 <span>
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -33,7 +33,7 @@
                 <ul>
                     <li class="py-3 px-3.5 relative rounded-lg border border-[#FFFFFF1A]"
                         style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
-                        <img class="absolute bottom-0 left-0" src="./img/header/button-shadow.png" alt="shadow">
+                        <img class="absolute bottom-0 left-0 w-full" src="./img/header/button-shadow.png" alt="shadow">
                         <img class="absolute right-0" src="./img/header/dots.png" alt="dots">
                         <a class="text-[#fff] text-sm flex items-center gap-3" href="#">
                             <span>
@@ -354,8 +354,12 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="flex-grow"></div>
+
+
             <div>
-                <ul class="border-t border-t-white/10">
+                <ul class="border-t border-t-white/10 mt-auto">
                     <li class="py-3 px-3.5 rounded-lg border border-transparent"
                         style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
                         <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
@@ -407,7 +411,7 @@
             </div>
         </div>
 
-        <div class="max-w-[83%] w-full  flex flex-col gap-0.5 pr-6">
+        <div class="w-full pl-[18%] mx-auto flex flex-col min-h-screen gap-0.5 pr-6">
             <div class="w-full pt-6">
                 <div style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03));"
                     class="flex border border-white/10 items-center rounded-t-2xl justify-between gap-10 py-3 px-6">
@@ -516,7 +520,8 @@
                     </div>
                 </div>
             </div>
-            
+
+            <div class="flex-grow"></div>
             <footer>
                 <div class="rounded-2xl w-full mx-auto border border-white/10 mb-[52px] border-b-0"
                     style="background: linear-gradient(165.83deg, rgba(255, 255, 255, 0.024) 4.29%, rgba(255, 255, 255, 0.01) 72.39%); ">
@@ -553,6 +558,9 @@
             </footer>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
