@@ -4,8 +4,9 @@
 
 @font-face {
   font-family: 'Aventa';
-  src: url('/public/fonts/ellenluff-aventa/EllenLuff - Aventa Light.otf')
-    format('otf');
+  src: url('../fonts/Aventa-LightPERSONALUSEONLY.woff2') format('woff2'),
+    url('../fonts/Aventa-LightPERSONALUSEONLY.woff') format('woff'),
+    url('../fonts/Aventa-LightPERSONALUSEONLY.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
