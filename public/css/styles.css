@@ -817,6 +817,9 @@ video {
 .max-w-\[550px\] {
   max-width: 550px;
 }
+.max-w-\[60px\] {
+  max-width: 60px;
+}
 .flex-grow {
   flex-grow: 1;
 }
@@ -1378,6 +1381,10 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
 .font-medium {
   font-weight: 500;
 }
@@ -1413,6 +1420,9 @@ video {
 }
 .leading-\[8px\] {
   line-height: 8px;
+}
+.leading-\[60px\] {
+  line-height: 60px;
 }
 .text-\[\#15FFAB\] {
   --tw-text-opacity: 1;
