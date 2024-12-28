@@ -1204,13 +1204,12 @@
                         <!-- Вторая секция KYC в Figma -->
 
                         <div class="w-full items-center flex justify-center relative h-[80vh]">
-                           <div>
-                             <img class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
-                            src="./img/personal-settings/kycbg.png" 
-                            alt="bg">
-                           </div>
                             <div>
-                                <span class="flex justify-center" >
+                                <img class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                    src="./img/personal-settings/kycbg.png" alt="bg">
+                            </div>
+                            <div>
+                                <span class="flex justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
                                         fill="none">
                                         <rect x="0.5" width="40" height="40" rx="20"
@@ -1237,8 +1236,12 @@
                                         </defs>
                                     </svg>
                                 </span>
-                                <h3 class="text-white text-sm mb-3 text-center" >KYC submission is not required at this stage</h3>
-                                <p class="text-center text-white/50 text-sm mx-auto max-w-[443px]" >You are currently not required to submit KYC documents. Once you reach the funded state, you will be prompted to pass the verification process to move to the next step of your challenge. Please check back later.</p>
+                                <h3 class="text-white text-sm mb-3 text-center">KYC submission is not required at this
+                                    stage</h3>
+                                <p class="text-center text-white/50 text-sm mx-auto max-w-[443px]">You are currently not
+                                    required to submit KYC documents. Once you reach the funded state, you will be
+                                    prompted to pass the verification process to move to the next step of your
+                                    challenge. Please check back later.</p>
                             </div>
                         </div>
 
@@ -1246,14 +1249,176 @@
                     </section>
 
                     <section class="change__section pt-6">
-                        <div>
-                            section - 4
+                        <div class="flex items-start justify-between gap-20">
+                            <div>
+                                <h3 class="text-white text-sm mb-2">KYC submission is available</h3>
+                                <p class="text-white/50 text-sm max-w-[355px]">As you are now in the funded state you
+                                    can pass verification process in order to move to the next step of your challenge.
+                                    We will require the following documents. When you are ready to proceed click the
+                                    button to get verified</p>
+                            </div>
+                            <div class="max-w-[454px] w-full flex flex-col gap-5">
+                                <div class="flex items-center gap-4 pb-3" style="border-bottom: 1px dashed #FFFFFF1A;">
+                                    <!-- Checkbox 1 -->
+                                    <label for="checkbox1"
+                                        class="relative flex items-center justify-center w-6 h-6 border border-[#FFFFFF4D] rounded cursor-pointer">
+                                        <input type="checkbox" id="checkbox1"
+                                            class="checkbox absolute w-full h-full opacity-0" />
+                                        <div id="checkbox-container1"
+                                            class="w-full h-full flex items-center justify-center bg-transparent rounded border-[#FFFFFF4D]">
+                                            <svg id="default-svg1" class="block opacity-0" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.5 6.00513L3.95149 9L10.5 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <svg id="checkmark-svg1" class="hidden" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L4 8L10 2" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </label>
+                                    <p class="text-white text-sm">New Referral Purchase Email</p>
+                                </div>
+
+                                <div class="flex items-center gap-4 pb-3" style="border-bottom: 1px dashed #FFFFFF1A;">
+                                    <!-- Checkbox 2 -->
+                                    <label for="checkbox2"
+                                        class="relative flex items-center justify-center w-6 h-6 border border-[#FFFFFF4D] rounded cursor-pointer">
+                                        <input type="checkbox" id="checkbox2"
+                                            class="checkbox absolute w-full h-full opacity-0" />
+                                        <div id="checkbox-container2"
+                                            class="w-full h-full flex items-center justify-center bg-transparent rounded border-[#FFFFFF4D]">
+                                            <svg id="default-svg2" class="block opacity-0" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.5 6.00513L3.95149 9L10.5 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <svg id="checkmark-svg2" class="hidden" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L4 8L10 2" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </label>
+                                    <p class="text-white text-sm">Affiliate Payout Submission Email</p>
+                                </div>
+
+                                <div class="flex items-center gap-4 pb-3" style="border-bottom: 1px dashed #FFFFFF1A;">
+                                    <!-- Checkbox 3 -->
+                                    <label for="checkbox3"
+                                        class="relative flex items-center justify-center w-6 h-6 border border-[#FFFFFF4D] rounded cursor-pointer">
+                                        <input type="checkbox" id="checkbox3"
+                                            class="checkbox absolute w-full h-full opacity-0" />
+                                        <div id="checkbox-container3"
+                                            class="w-full h-full flex items-center justify-center bg-transparent rounded border-[#FFFFFF4D]">
+                                            <svg id="default-svg3" class="block opacity-0" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.5 6.00513L3.95149 9L10.5 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <svg id="checkmark-svg3" class="hidden" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L4 8L10 2" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </label>
+                                    <p class="text-white text-sm">Affiliate Payout Update Email</p>
+                                </div>
+
+                                <div class="flex items-center gap-4 pb-3" style="border-bottom: 1px dashed #FFFFFF1A;">
+                                    <!-- Checkbox 4 -->
+                                    <label for="checkbox4"
+                                        class="relative flex items-center justify-center w-6 h-6 border border-[#FFFFFF4D] rounded cursor-pointer">
+                                        <input type="checkbox" id="checkbox4"
+                                            class="checkbox absolute w-full h-full opacity-0" />
+                                        <div id="checkbox-container4"
+                                            class="w-full h-full flex items-center justify-center bg-transparent rounded border-[#FFFFFF4D]">
+                                            <svg id="default-svg4" class="block opacity-0" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.5 6.00513L3.95149 9L10.5 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <svg id="checkmark-svg4" class="hidden" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L4 8L10 2" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </label>
+                                    <p class="text-white text-sm">Prop Account Payout Submission Email</p>
+                                </div>
+
+                                <div class="flex items-center gap-4 pb-3" style="border-bottom: 1px dashed #FFFFFF1A;">
+                                    <!-- Checkbox 5 -->
+                                    <label for="checkbox5"
+                                        class="relative flex items-center justify-center w-6 h-6 border border-[#FFFFFF4D] rounded cursor-pointer">
+                                        <input type="checkbox" id="checkbox5"
+                                            class="checkbox absolute w-full h-full opacity-0" />
+                                        <div id="checkbox-container5"
+                                            class="w-full h-full flex items-center justify-center bg-transparent rounded border-[#FFFFFF4D]">
+                                            <svg id="default-svg5" class="block opacity-0" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.5 6.00513L3.95149 9L10.5 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <svg id="checkmark-svg5" class="hidden" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L4 8L10 2" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </label>
+                                    <p class="text-white text-sm">Prop Account Payout Update Email</p>
+                                </div>
+
+                                <div class="flex items-center gap-4 pb-3" style="border-bottom: 1px dashed #FFFFFF1A;">
+                                    <!-- Checkbox 6 -->
+                                    <label for="checkbox6"
+                                        class="relative flex items-center justify-center w-6 h-6 border border-[#FFFFFF4D] rounded cursor-pointer">
+                                        <input type="checkbox" id="checkbox6"
+                                            class="checkbox absolute w-full h-full opacity-0" />
+                                        <div id="checkbox-container6"
+                                            class="w-full h-full flex items-center justify-center bg-transparent rounded border-[#FFFFFF4D]">
+                                            <svg id="default-svg6" class="block opacity-0" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.5 6.00513L3.95149 9L10.5 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <svg id="checkmark-svg6" class="hidden" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L4 8L10 2" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </label>
+                                    <p class="text-white text-sm">Unsubscribe from all notifications</p>
+                                </div>
+
+
+                                <div class="flex justify-end mb-12">
+                                    <button
+                                        class="inline-flex items-center gap-4 text-white text-sm py-3 overflow-hidden px-5 bg-[#3A48E0] rounded-lg relative transition-all duration-300 hover:opacity-80 border border-[#99DAFF4D]"
+                                        style="box-shadow: 0px 10px 20px 0px #3A48E080;">
+                                        <img class="absolute w-full object-cover h-full bottom-0 left-0"
+                                            src="./img/header/shadow.png" alt="shadow">
+                                        Save Changes
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </section>
 
                     <section class="change__section pt-6">
                         <div>
-                            section - 5
+                            <div>
+                                <h3 class="text-white text-sm mb-2">Payout methods</h3>
+                                <p class="text-white/50 text-sm">Select a default payout method</p>
+                            </div>
+                            <div>
+                                
+                            </div>
                         </div>
                     </section>
 
@@ -1327,6 +1492,27 @@
                 section.classList.toggle('active', index == initialSectionIndex);
             });
         }
+        document.querySelectorAll('.checkbox').forEach(function (checkbox) {
+            checkbox.addEventListener('change', function () {
+                const index = this.id.replace('checkbox', '');
+
+                const defaultSVG = document.getElementById('default-svg' + index);
+                const checkmarkSVG = document.getElementById('checkmark-svg' + index);
+                const container = document.getElementById('checkbox-container' + index);
+
+                if (this.checked) {
+                    defaultSVG.classList.add('hidden');
+                    checkmarkSVG.classList.remove('hidden');
+                    container.classList.add('bg-[#4852F5]', 'border-[#FFFFFF4D]');
+                } else {
+                    defaultSVG.classList.remove('hidden');
+                    checkmarkSVG.classList.add('hidden');
+                    container.classList.remove('bg-[#4852F5]', 'border-[#FFFFFF4D]');
+                }
+            });
+        });
+
+
     </script>
 </body>
 
