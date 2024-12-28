@@ -139,3 +139,45 @@ body {
 .custom-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
+
+.change_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  position: relative;
+  background: linear-gradient(
+    187.15deg,
+    rgba(255, 255, 255, 0.05) 16.19%,
+    rgba(255, 255, 255, 0) 114.12%
+  );
+}
+
+.change_btn.active {
+  border: 1px solid rgba(72, 82, 245, 0.2) !important;
+  color: #ffffff !important;
+  background: #4852f50d !important;
+}
+
+.change_btn img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  display: none;
+}
+.change_btn.active img {
+  display: block;
+}
+
+.change__section {
+  display: none; 
+}
+.change__section.active {
+  display: block; 
+}
