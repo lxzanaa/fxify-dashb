@@ -543,6 +543,9 @@ video {
 .bottom-3 {
   bottom: 0.75rem;
 }
+.bottom-4 {
+  bottom: 1rem;
+}
 .left-0 {
   left: 0px;
 }
@@ -599,6 +602,9 @@ video {
 }
 .z-\[-1\] {
   z-index: -1;
+}
+.col-span-3 {
+  grid-column: span 3 / span 3;
 }
 .mx-auto {
   margin-left: auto;
@@ -682,6 +688,9 @@ video {
 .mb-\[64px\] {
   margin-bottom: 64px;
 }
+.mb-\[76px\] {
+  margin-bottom: 76px;
+}
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -760,6 +769,9 @@ video {
 .h-\[148px\] {
   height: 148px;
 }
+.h-\[171px\] {
+  height: 171px;
+}
 .h-\[177px\] {
   height: 177px;
 }
@@ -807,6 +819,12 @@ video {
 }
 .min-h-screen {
   min-height: 100vh;
+}
+.w-0 {
+  width: 0px;
+}
+.w-0\.5 {
+  width: 0.125rem;
 }
 .w-10 {
   width: 2.5rem;
@@ -874,15 +892,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-1 {
-  width: 0.25rem;
-}
-.w-0 {
-  width: 0px;
-}
-.w-0\.5 {
-  width: 0.125rem;
-}
 .max-w-\[103px\] {
   max-width: 103px;
 }
@@ -925,6 +934,9 @@ video {
 .max-w-\[284px\] {
   max-width: 284px;
 }
+.max-w-\[297px\] {
+  max-width: 297px;
+}
 .max-w-\[300px\] {
   max-width: 300px;
 }
@@ -961,6 +973,9 @@ video {
 .max-w-\[454px\] {
   max-width: 454px;
 }
+.max-w-\[481px\] {
+  max-width: 481px;
+}
 .max-w-\[512px\] {
   max-width: 512px;
 }
@@ -987,6 +1002,9 @@ video {
 }
 .max-w-\[922px\] {
   max-width: 922px;
+}
+.max-w-\[923px\] {
+  max-width: 923px;
 }
 .flex-grow {
   flex-grow: 1;
@@ -1213,9 +1231,6 @@ video {
 .border-t {
   border-top-width: 1px;
 }
-.border-dashed {
-  border-style: dashed;
-}
 .border-none {
   border-style: none;
 }
@@ -1344,9 +1359,6 @@ video {
 }
 .bg-white\/10 {
   background-color: rgb(255 255 255 / 0.1);
-}
-.bg-\[\] {
-  background-color: ;
 }
 .bg-white\/20 {
   background-color: rgb(255 255 255 / 0.2);
@@ -1639,6 +1651,9 @@ video {
 .pt-\[75px\] {
   padding-top: 75px;
 }
+.pt-\[76px\] {
+  padding-top: 76px;
+}
 .text-left {
   text-align: left;
 }
@@ -1727,6 +1742,9 @@ video {
 .leading-\[35\.2px\] {
   line-height: 35.2px;
 }
+.leading-\[48px\] {
+  line-height: 48px;
+}
 .leading-\[60px\] {
   line-height: 60px;
 }
@@ -1803,9 +1821,6 @@ video {
 }
 .opacity-10 {
   opacity: 0.1;
-}
-.opacity-100 {
-  opacity: 1;
 }
 .opacity-50 {
   opacity: 0.5;
@@ -2034,64 +2049,97 @@ body {
 }
 
 .change__section {
-  display: none; 
+  display: none;
 }
 .change__section.active {
-  display: block; 
+  display: block;
 }
+
+.expert__btn {
+  color: #ffffff80;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.expert__btn.active {
+  color: white !important;
+  background-color: #4852f50d !important;
+  border: 1px solid #4852f533;
+}
+
+.expert__btn img {
+  display: none;
+}
+
+.expert__btn.active img {
+  display: block;
+}
+
+.section-content {
+  display: none;
+}
+
+.section-content.active {
+  display: block;
+}
+
 .placeholder\:text-white\/50::-moz-placeholder {
   color: rgb(255 255 255 / 0.5);
 }
+
 .placeholder\:text-white\/50::placeholder {
   color: rgb(255 255 255 / 0.5);
 }
+
 .checked\:bg-\[\#3A48E0\]:checked {
   --tw-bg-opacity: 1;
   background-color: rgb(58 72 224 / var(--tw-bg-opacity));
 }
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
+
 .hover\:opacity-65:hover {
   opacity: 0.65;
 }
+
 .hover\:opacity-80:hover {
   opacity: 0.8;
 }
+
 .hover\:opacity-85:hover {
   opacity: 0.85;
 }
+
 .active\:opacity-55:active {
   opacity: 0.55;
 }
+
 .active\:opacity-70:active {
   opacity: 0.7;
 }
+
 .active\:opacity-75:active {
   opacity: 0.75;
 }
+
 .group:hover .group-hover\:translate-x-1 {
   --tw-translate-x: 0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.peer:checked ~ .peer-checked\:block {
-  display: block;
-}
+
 .peer:checked ~ .peer-checked\:translate-x-6 {
   --tw-translate-x: 1.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.peer:checked ~ .peer-checked\:border-\[\#FFFFFF4D\] {
-  border-color: #FFFFFF4D;
-}
+
 .peer:checked ~ .peer-checked\:border-slate-800 {
   --tw-border-opacity: 1;
   border-color: rgb(30 41 59 / var(--tw-border-opacity));
 }
-.peer:checked ~ .peer-checked\:bg-\[\#4852F5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(72 82 245 / var(--tw-bg-opacity));
-}
+
 @media (min-width: 1280px) {
 
   .xl\:h-\[60px\] {

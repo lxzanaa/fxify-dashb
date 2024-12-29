@@ -176,8 +176,37 @@ body {
 }
 
 .change__section {
-  display: none; 
+  display: none;
 }
 .change__section.active {
-  display: block; 
+  display: block;
+}
+
+.expert__btn {
+  color: #ffffff80;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.expert__btn.active {
+  color: white !important;
+  background-color: #4852f50d !important;
+  border: 1px solid #4852f533;
+}
+
+.expert__btn img {
+  display: none;
+}
+
+.expert__btn.active img {
+  display: block;
+}
+
+.section-content {
+  display: none;
+}
+
+.section-content.active {
+  display: block;
 }
