@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#0D0E10]">
+    <div class="flex gap-6">
+        <div
+            class="custom-scroll flex flex-col max-w-[18%] w-full h-full fixed overflow-y-scroll border-r border-r-white/10 py-10 px-6">
+            <a href="./index.html" class="mb-6 flex">
+                <img src="./img/header/logo.svg" alt="logo">
+            </a>
+            <a class="mb-6 flex items-center gap-4 text-white text-sm py-3 px-9 bg-[#3A48E0] rounded-lg relative transition-all duration-300 hover:opacity-80 border border-[#99DAFF4D]"
+                href="#">
+                <img class="absolute w-full object-cover h-full bottom-0 left-0" src="./img/header/shadow.png"
+                    alt="shadow">
+                <span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.99992 12.5L7.49992 10M9.99992 12.5C11.164 12.0573 12.2807 11.499 13.3333 10.8334M9.99992 12.5V16.6667C9.99992 16.6667 12.5249 16.2084 13.3333 15C14.2333 13.65 13.3333 10.8334 13.3333 10.8334M7.49992 10C7.94337 8.84957 8.50175 7.74676 9.16659 6.70838C10.1376 5.15587 11.4896 3.87758 13.0941 2.99512C14.6986 2.11266 16.5021 1.65535 18.3333 1.66671C18.3333 3.93338 17.6833 7.91671 13.3333 10.8334M7.49992 10H3.33325C3.33325 10 3.79159 7.47504 4.99992 6.66671C6.34992 5.76671 9.16659 6.66671 9.16659 6.66671M3.74992 13.75C2.49992 14.8 2.08325 17.9167 2.08325 17.9167C2.08325 17.9167 5.19992 17.5 6.24992 16.25C6.84159 15.55 6.83325 14.475 6.17492 13.825C5.85101 13.5159 5.42433 13.3372 4.97677 13.3234C4.52922 13.3096 4.09232 13.4615 3.74992 13.75Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+                Start Challenge
+            </a>
+            <div class="mb-12">
+                <p class="py-3 px-3.5 text-white/40 uppercase text-sm">menu</p>
+                <ul>
+                    <li class="py-3 px-3.5 relative rounded-lg border border-[#FFFFFF1A]"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <img class="absolute bottom-0 left-0 w-full" src="./img/header/button-shadow.png" alt="shadow">
+                        <img class="absolute right-0" src="./img/header/dots.png" alt="dots">
+                        <a class="text-[#fff] text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18.3333 6.8915V3.52484C18.3333 2.19984 17.8 1.6665 16.475 1.6665H13.1083C11.7833 1.6665 11.25 2.19984 11.25 3.52484V6.8915C11.25 8.2165 11.7833 8.74984 13.1083 8.74984H16.475C17.8 8.74984 18.3333 8.2165 18.3333 6.8915Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M8.75008 7.09984V3.3165C8.75008 2.1415 8.21675 1.6665 6.89175 1.6665H3.52508C2.20008 1.6665 1.66675 2.1415 1.66675 3.3165V7.0915C1.66675 8.27484 2.20008 8.7415 3.52508 8.7415H6.89175C8.21675 8.74984 8.75008 8.27484 8.75008 7.09984Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M8.75008 16.475V13.1083C8.75008 11.7833 8.21675 11.25 6.89175 11.25H3.52508C2.20008 11.25 1.66675 11.7833 1.66675 13.1083V16.475C1.66675 17.8 2.20008 18.3333 3.52508 18.3333H6.89175C8.21675 18.3333 8.75008 17.8 8.75008 16.475Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12.5 12.9165H17.5" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                    <path d="M12.5 16.25H17.5" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                            Overview
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M16.4917 12.4416C14.775 14.1499 12.3167 14.6749 10.1584 13.9999L6.23337 17.9166C5.95004 18.2083 5.39171 18.3833 4.99171 18.3249L3.17504 18.0749C2.57504 17.9916 2.01671 17.4249 1.92504 16.8249L1.67504 15.0083C1.61671 14.6083 1.80837 14.0499 2.08337 13.7666L6.00004 9.84994C5.33337 7.68327 5.85004 5.22494 7.56671 3.5166C10.025 1.05827 14.0167 1.05827 16.4834 3.5166C18.95 5.97494 18.95 9.98327 16.4917 12.4416Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M5.7417 14.5752L7.65837 16.4919" stroke="currentColor"
+                                            stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12.0833 9.1665C12.7736 9.1665 13.3333 8.60686 13.3333 7.9165C13.3333 7.22615 12.7736 6.6665 12.0833 6.6665C11.3929 6.6665 10.8333 7.22615 10.8333 7.9165C10.8333 8.60686 11.3929 9.1665 12.0833 9.1665Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Accounts
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M15.8334 7.49984C15.8334 8.70817 15.4751 9.81652 14.8584 10.7415C13.9584 12.0748 12.5334 13.0165 10.8751 13.2582C10.5917 13.3082 10.3001 13.3332 10.0001 13.3332C9.70008 13.3332 9.40841 13.3082 9.12508 13.2582C7.46675 13.0165 6.04175 12.0748 5.14175 10.7415C4.52508 9.81652 4.16675 8.70817 4.16675 7.49984C4.16675 4.27484 6.77508 1.6665 10.0001 1.6665C13.2251 1.6665 15.8334 4.27484 15.8334 7.49984Z"
+                                            stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M17.7082 15.3917L16.3332 15.7167C16.0249 15.7917 15.7832 16.025 15.7166 16.3333L15.4249 17.5583C15.2666 18.225 14.4166 18.425 13.9749 17.9L9.9999 13.3333L6.0249 17.9083C5.58324 18.4333 4.73324 18.2333 4.5749 17.5667L4.28324 16.3417C4.20824 16.0333 3.96657 15.7917 3.66657 15.725L2.29157 15.4C1.65824 15.25 1.43324 14.4583 1.89157 14L5.14157 10.75C6.04157 12.0833 7.46657 13.025 9.1249 13.2667C9.40824 13.3167 9.6999 13.3417 9.9999 13.3417C10.2999 13.3417 10.5916 13.3167 10.8749 13.2667C12.5332 13.025 13.9582 12.0833 14.8582 10.75L18.1082 14C18.5666 14.45 18.3416 15.2417 17.7082 15.3917Z"
+                                            stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M10.4834 4.9835L10.9751 5.96682C11.0417 6.10016 11.2167 6.2335 11.3751 6.2585L12.2667 6.40849C12.8334 6.50016 12.9667 6.91683 12.5584 7.32516L11.8667 8.01682C11.7501 8.13348 11.6834 8.3585 11.7251 8.52516L11.9251 9.38349C12.0834 10.0585 11.7251 10.3251 11.1251 9.96681L10.2917 9.47515C10.1417 9.38348 9.89172 9.38348 9.74172 9.47515L8.90839 9.96681C8.30839 10.3168 7.95006 10.0585 8.10839 9.38349L8.30839 8.52516C8.34173 8.36683 8.28339 8.13348 8.16673 8.01682L7.47506 7.32516C7.06673 6.91683 7.20006 6.50849 7.76673 6.40849L8.65839 6.2585C8.80839 6.2335 8.98339 6.10016 9.05006 5.96682L9.54173 4.9835C9.78339 4.45016 10.2167 4.45016 10.4834 4.9835Z"
+                                            stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Competitions
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M7.22508 11.6665H3.33341C2.41675 11.6665 1.66675 12.4165 1.66675 13.3332V18.3332H7.22508V11.6665Z"
+                                            stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M11.1082 8.3335H8.88322C7.96655 8.3335 7.21655 9.0835 7.21655 10.0002V18.3335H12.7749V10.0002C12.7749 9.0835 12.0332 8.3335 11.1082 8.3335Z"
+                                            stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M16.6666 14.1665H12.7749V18.3332H18.3332V15.8332C18.3332 14.9165 17.5832 14.1665 16.6666 14.1665Z"
+                                            stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M10.4333 1.72485L10.8749 2.60818C10.9333 2.73318 11.0916 2.84985 11.2249 2.86652L12.0249 2.99985C12.5333 3.08318 12.6583 3.45817 12.2916 3.8165L11.6666 4.4415C11.5583 4.54984 11.4999 4.74984 11.5333 4.89151L11.7083 5.65819C11.8499 6.26652 11.5249 6.49986 10.9916 6.18319L10.2416 5.74153C10.1083 5.65819 9.88328 5.65819 9.74995 5.74153L8.99995 6.18319C8.46661 6.49986 8.14161 6.26652 8.28328 5.65819L8.45828 4.89151C8.49162 4.74984 8.43328 4.5415 8.32495 4.4415L7.70828 3.82484C7.34161 3.45818 7.45828 3.0915 7.97495 3.00817L8.77495 2.87486C8.90828 2.84986 9.06661 2.73319 9.12495 2.61653L9.56661 1.73317C9.80828 1.24984 10.1916 1.24985 10.4333 1.72485Z"
+                                            stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Leaderboard
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M17.5 5.83317V14.1665C17.5 16.6665 16.25 18.3332 13.3333 18.3332H6.66667C3.75 18.3332 2.5 16.6665 2.5 14.1665V5.83317C2.5 3.33317 3.75 1.6665 6.66667 1.6665H13.3333C16.25 1.6665 17.5 3.33317 17.5 5.83317Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12.9166 1.6665V8.21649C12.9166 8.58316 12.4832 8.76649 12.2166 8.52482L10.2833 6.74153C10.1249 6.59153 9.8749 6.59153 9.71656 6.74153L7.78327 8.52482C7.51661 8.76649 7.08325 8.58316 7.08325 8.21649V1.6665H12.9166Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11.0417 11.6665H14.5834" stroke="currentColor" stroke-width="1.5"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.5 15H14.5833" stroke="currentColor" stroke-width="1.5"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Certificates
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M8.95957 14.0503V15.742C8.95957 17.1753 7.62623 18.3336 5.98457 18.3336C4.3429 18.3336 3.00122 17.1753 3.00122 15.742V14.0503C3.00122 15.4836 4.33457 16.5003 5.98457 16.5003C7.62623 16.5003 8.95957 15.4753 8.95957 14.0503Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M8.95834 11.7581C8.95834 12.1748 8.84167 12.5581 8.64167 12.8914C8.15001 13.6998 7.14166 14.2081 5.975 14.2081C4.80833 14.2081 3.79999 13.6914 3.30832 12.8914C3.10832 12.5581 2.9917 12.1748 2.9917 11.7581C2.9917 11.0415 3.32501 10.3998 3.85835 9.93312C4.40001 9.45812 5.14165 9.1748 5.96665 9.1748C6.79165 9.1748 7.53335 9.46645 8.07501 9.93312C8.62501 10.3914 8.95834 11.0415 8.95834 11.7581Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M8.95957 11.7582V14.0498C8.95957 15.4832 7.62623 16.4998 5.98457 16.4998C4.3429 16.4998 3.00122 15.4748 3.00122 14.0498V11.7582C3.00122 10.3248 4.33457 9.1665 5.98457 9.1665C6.80957 9.1665 7.55126 9.45815 8.09293 9.92481C8.62626 10.3915 8.95957 11.0415 8.95957 11.7582Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M18.3333 9.14147V10.8582C18.3333 11.3165 17.9667 11.6915 17.5 11.7082H15.8667C14.9667 11.7082 14.1417 11.0498 14.0667 10.1498C14.0167 9.62482 14.2167 9.13315 14.5667 8.79148C14.875 8.47482 15.3 8.2915 15.7667 8.2915H17.5C17.9667 8.30817 18.3333 8.68314 18.3333 9.14147Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M1.66675 8.74984V7.08317C1.66675 4.8165 3.03342 3.23317 5.15842 2.9665C5.37508 2.93317 5.60008 2.9165 5.83341 2.9165H13.3334C13.5501 2.9165 13.7584 2.92483 13.9584 2.95816C16.1084 3.20816 17.5001 4.79984 17.5001 7.08317V8.29151H15.7667C15.3001 8.29151 14.8751 8.47483 14.5667 8.79149C14.2167 9.13316 14.0168 9.62483 14.0668 10.1498C14.1418 11.0498 14.9667 11.7082 15.8667 11.7082H17.5001V12.9165C17.5001 15.4165 15.8334 17.0832 13.3334 17.0832H11.2501"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Payouts
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path d="M6.66675 10.1665H12.5001" stroke="currentColor" stroke-width="1.5"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6.66675 13.5H10.3167" stroke="currentColor" stroke-width="1.5"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M8.33341 4.99984H11.6667C13.3334 4.99984 13.3334 4.1665 13.3334 3.33317C13.3334 1.6665 12.5001 1.6665 11.6667 1.6665H8.33341C7.50008 1.6665 6.66675 1.6665 6.66675 3.33317C6.66675 4.99984 7.50008 4.99984 8.33341 4.99984Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M13.3333 3.3501C16.1083 3.5001 17.5 4.5251 17.5 8.33343V13.3334C17.5 16.6668 16.6667 18.3334 12.5 18.3334H7.5C3.33333 18.3334 2.5 16.6668 2.5 13.3334V8.33343C2.5 4.53343 3.89167 3.5001 6.66667 3.3501"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Billing
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path d="M4.16699 12.4998V6.6665" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M4.37533 18.3332C5.8711 18.3332 7.08366 17.1206 7.08366 15.6248C7.08366 14.1291 5.8711 12.9165 4.37533 12.9165C2.87955 12.9165 1.66699 14.1291 1.66699 15.6248C1.66699 17.1206 2.87955 18.3332 4.37533 18.3332Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M4.16699 6.6665C5.5477 6.6665 6.66699 5.54722 6.66699 4.1665C6.66699 2.78579 5.5477 1.6665 4.16699 1.6665C2.78628 1.6665 1.66699 2.78579 1.66699 4.1665C1.66699 5.54722 2.78628 6.6665 4.16699 6.6665Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M15.833 6.6665C17.2137 6.6665 18.333 5.54722 18.333 4.1665C18.333 2.78579 17.2137 1.6665 15.833 1.6665C14.4523 1.6665 13.333 2.78579 13.333 4.1665C13.333 5.54722 14.4523 6.6665 15.833 6.6665Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M4.27539 12.5C4.65039 11.0416 5.98372 9.9583 7.55872 9.96663L10.4171 9.97498C12.6004 9.98331 14.4587 8.5833 15.1421 6.6333"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Affiliate Program
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M10.8416 2.43311L15.7583 4.61644C17.1749 5.24144 17.1749 6.27477 15.7583 6.89977L10.8416 9.08311C10.2833 9.33311 9.3666 9.33311 8.80827 9.08311L3.8916 6.89977C2.47493 6.27477 2.47493 5.24144 3.8916 4.61644L8.80827 2.43311C9.3666 2.18311 10.2833 2.18311 10.8416 2.43311Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M2.5 9.1665C2.5 9.8665 3.025 10.6748 3.66667 10.9582L9.325 13.4748C9.75833 13.6665 10.25 13.6665 10.675 13.4748L16.3333 10.9582C16.975 10.6748 17.5 9.8665 17.5 9.1665"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M2.5 13.3335C2.5 14.1085 2.95833 14.8085 3.66667 15.1252L9.325 17.6418C9.75833 17.8335 10.25 17.8335 10.675 17.6418L16.3333 15.1252C17.0417 14.8085 17.5 14.1085 17.5 13.3335"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Platforms
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M10.0999 10.6502C10.0416 10.6419 9.9666 10.6419 9.89993 10.6502C8.43327 10.6002 7.2666 9.40023 7.2666 7.92523C7.2666 6.41689 8.48327 5.19189 9.99993 5.19189C11.5083 5.19189 12.7333 6.41689 12.7333 7.92523C12.7249 9.40023 11.5666 10.6002 10.0999 10.6502Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M15.6166 16.1498C14.1333 17.5081 12.1666 18.3331 9.99997 18.3331C7.8333 18.3331 5.86663 17.5081 4.3833 16.1498C4.46663 15.3665 4.96663 14.5998 5.8583 13.9998C8.14163 12.4831 11.875 12.4831 14.1416 13.9998C15.0333 14.5998 15.5333 15.3665 15.6166 16.1498Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M10.0001 18.3332C14.6025 18.3332 18.3334 14.6022 18.3334 9.99984C18.3334 5.39746 14.6025 1.6665 10.0001 1.6665C5.39771 1.6665 1.66675 5.39746 1.66675 9.99984C1.66675 14.6022 5.39771 18.3332 10.0001 18.3332Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Profile
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M10.0001 18.9581C9.47508 18.9581 8.98341 18.7582 8.61674 18.3832L7.35009 17.1165C7.25009 17.0165 6.98342 16.9082 6.85008 16.9082H5.05008C3.96675 16.9082 3.09174 16.0331 3.09174 14.9497V13.1498C3.09174 13.0165 2.98341 12.7498 2.88341 12.6498L1.61675 11.3832C1.25008 11.0165 1.04175 10.5248 1.04175 9.99979C1.04175 9.47479 1.24175 8.98309 1.61675 8.61643L2.88341 7.34974C2.98341 7.24974 3.09174 6.9831 3.09174 6.84976V5.04984C3.09174 3.9665 3.96675 3.09142 5.05008 3.09142H6.85008C6.98342 3.09142 7.25009 2.98309 7.35009 2.88309L8.61674 1.61641C9.35008 0.883073 10.6501 0.883073 11.3834 1.61641L12.6501 2.88309C12.7501 2.98309 13.0167 3.09142 13.1501 3.09142H14.9501C16.0334 3.09142 16.9084 3.9665 16.9084 5.04984V6.84976C16.9084 6.9831 17.0168 7.24974 17.1168 7.34974L18.3834 8.61643C18.7501 8.98309 18.9584 9.47479 18.9584 9.99979C18.9584 10.5248 18.7584 11.0165 18.3834 11.3832L17.1168 12.6498C17.0168 12.7498 16.9084 13.0165 16.9084 13.1498V14.9497C16.9084 16.0331 16.0334 16.9082 14.9501 16.9082H13.1501C13.0167 16.9082 12.7501 17.0165 12.6501 17.1165L11.3834 18.3832C11.0168 18.7582 10.5251 18.9581 10.0001 18.9581ZM3.76674 11.7665C4.10007 12.0998 4.34174 12.6831 4.34174 13.1498V14.9497C4.34174 15.3414 4.65841 15.6582 5.05008 15.6582H6.85008C7.31675 15.6582 7.90009 15.8998 8.23342 16.2331L9.50008 17.4998C9.76674 17.7665 10.2334 17.7665 10.5001 17.4998L11.7667 16.2331C12.1001 15.8998 12.6834 15.6582 13.1501 15.6582H14.9501C15.3418 15.6582 15.6584 15.3414 15.6584 14.9497V13.1498C15.6584 12.6831 15.9001 12.0998 16.2334 11.7665L17.5001 10.4998C17.6334 10.3664 17.7084 10.1915 17.7084 9.99979C17.7084 9.80812 17.6334 9.63314 17.5001 9.49981L16.2334 8.23313C15.9001 7.89979 15.6584 7.31643 15.6584 6.84976V5.04984C15.6584 4.65817 15.3418 4.34142 14.9501 4.34142H13.1501C12.6834 4.34142 12.1001 4.0998 11.7667 3.76647L10.5001 2.49979C10.2334 2.23312 9.76674 2.23312 9.50008 2.49979L8.23342 3.76647C7.90009 4.0998 7.31675 4.34142 6.85008 4.34142H5.05008C4.65841 4.34142 4.34174 4.65817 4.34174 5.04984V6.84976C4.34174 7.31643 4.10007 7.89979 3.76674 8.23313L2.50008 9.49981C2.36675 9.63314 2.29175 9.80812 2.29175 9.99979C2.29175 10.1915 2.36675 10.3664 2.50008 10.4998L3.76674 11.7665Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M12.5001 13.3332C12.0335 13.3332 11.6584 12.9582 11.6584 12.4998C11.6584 12.0415 12.0334 11.6665 12.4918 11.6665C12.9501 11.6665 13.3251 12.0415 13.3251 12.4998C13.3251 12.9582 12.9585 13.3332 12.5001 13.3332Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M7.50842 8.33317C7.04176 8.33317 6.66675 7.95817 6.66675 7.49984C6.66675 7.0415 7.04175 6.6665 7.50008 6.6665C7.95841 6.6665 8.33341 7.0415 8.33341 7.49984C8.33341 7.95817 7.96676 8.33317 7.50842 8.33317Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M7.49987 13.1249C7.34154 13.1249 7.1832 13.0666 7.0582 12.9416C6.81654 12.6999 6.81654 12.2999 7.0582 12.0582L12.0582 7.0582C12.2999 6.81654 12.6999 6.81654 12.9415 7.0582C13.1832 7.29987 13.1832 7.69992 12.9415 7.94159L7.94153 12.9416C7.81653 13.0666 7.6582 13.1249 7.49987 13.1249Z"
+                                            fill="currentColor" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Сoupons
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path d="M6.66675 10.1665H12.5001" stroke="currentColor" stroke-width="1.5"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6.66675 13.5H10.3167" stroke="currentColor" stroke-width="1.5"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M8.33341 4.99984H11.6667C13.3334 4.99984 13.3334 4.1665 13.3334 3.33317C13.3334 1.6665 12.5001 1.6665 11.6667 1.6665H8.33341C7.50008 1.6665 6.66675 1.6665 6.66675 3.33317C6.66675 4.99984 7.50008 4.99984 8.33341 4.99984Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M13.3333 3.3501C16.1083 3.5001 17.5 4.5251 17.5 8.33343V13.3334C17.5 16.6668 16.6667 18.3334 12.5 18.3334H7.5C3.33333 18.3334 2.5 16.6668 2.5 13.3334V8.33343C2.5 4.53343 3.89167 3.5001 6.66667 3.3501"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Contracts
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-grow"></div>
+
+
+            <div>
+                <ul class="border-t border-t-white/10 mt-auto">
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.9584 2.0416C9.5334 1.54993 10.4751 1.54993 11.0584 2.0416L12.3751 3.17493C12.6251 3.3916 13.0917 3.5666 13.4251 3.5666H14.8417C15.7251 3.5666 16.4501 4.2916 16.4501 5.17493V6.5916C16.4501 6.9166 16.6251 7.3916 16.8417 7.6416L17.9751 8.95827C18.4667 9.53327 18.4667 10.4749 17.9751 11.0583L16.8417 12.3749C16.6251 12.6249 16.4501 13.0916 16.4501 13.4249V14.8416C16.4501 15.7249 15.7251 16.4499 14.8417 16.4499H13.4251C13.1001 16.4499 12.6251 16.6249 12.3751 16.8416L11.0584 17.9749C10.4834 18.4666 9.54173 18.4666 8.9584 17.9749L7.64173 16.8416C7.39173 16.6249 6.92506 16.4499 6.59173 16.4499H5.15006C4.26673 16.4499 3.54173 15.7249 3.54173 14.8416V13.4166C3.54173 13.0916 3.36673 12.6249 3.1584 12.3749L2.0334 11.0499C1.55007 10.4749 1.55007 9.5416 2.0334 8.9666L3.1584 7.6416C3.36673 7.3916 3.54173 6.92494 3.54173 6.59994V5.1666C3.54173 4.28327 4.26673 3.55827 5.15006 3.55827H6.59173C6.91673 3.55827 7.39173 3.38327 7.64173 3.1666L8.9584 2.0416Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M9.26991 12.2006V11.337C9.26991 10.9285 9.35398 10.571 9.52212 10.2646C9.69912 9.95822 9.90708 9.71681 10.146 9.54039C10.3938 9.36397 10.6372 9.19684 10.8761 9.039C11.115 8.88115 11.3186 8.70009 11.4867 8.49582C11.6637 8.28227 11.7522 8.04085 11.7522 7.77159C11.7522 7.35376 11.6062 6.99629 11.3142 6.69916C11.0221 6.40204 10.6327 6.24884 10.146 6.23955C9.63274 6.23955 9.19912 6.41597 8.84513 6.7688C8.5 7.11235 8.30973 7.61374 8.27434 8.27298H7C7.02655 7.24234 7.33628 6.43918 7.9292 5.86351C8.52212 5.28784 9.25664 5 10.1327 5C10.9823 5 11.6726 5.26927 12.2035 5.8078C12.7345 6.33705 13 7.00557 13 7.81337C13 8.22191 12.9159 8.57475 12.7478 8.87187C12.5796 9.16899 12.3761 9.40576 12.1372 9.58217C11.8982 9.75859 11.6593 9.93036 11.4204 10.0975C11.1814 10.2553 10.9735 10.4503 10.7965 10.6825C10.6283 10.9146 10.5442 11.1838 10.5442 11.4903V12.1866L9.26991 12.2006ZM10.5575 14.7354C10.3894 14.9118 10.1814 15 9.93363 15C9.68584 15 9.47788 14.9118 9.30973 14.7354C9.14159 14.5497 9.05752 14.3268 9.05752 14.0669C9.05752 13.8069 9.14159 13.5887 9.30973 13.4123C9.47788 13.2266 9.68584 13.1337 9.93363 13.1337C10.1814 13.1337 10.3894 13.2266 10.5575 13.4123C10.7345 13.5887 10.823 13.8069 10.823 14.0669C10.823 14.3268 10.7345 14.5497 10.5575 14.7354Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            Help Center
+                        </a>
+                    </li>
+                    <li class="py-3 px-3.5 rounded-lg border border-transparent"
+                        style="border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(76.3deg, rgba(63, 185, 254, 0) 48.85%, #4852F5 76.63%, rgba(63, 185, 254, 0) 103.95%);">
+                        <a class="text-[#fff]/40 text-sm flex items-center gap-3" href="#">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path d="M5.8335 5.83333C9.07424 4.72222 10.9261 4.72222 14.1668 5.83333"
+                                            stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M5.8335 14.1665C8.75016 15.2776 11.2502 15.2776 14.1668 14.1665"
+                                            stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M7.38094 14.6875C7.38094 15.625 5.61346 17.5 5.16013 17.5C3.7992 17.5 2.59065 15.9372 1.9859 14.6875C1.38114 13.1247 1.53257 9.21906 3.34587 3.90625C4.66776 2.95469 5.99536 2.65 7.38105 2.5L8.33342 5"
+                                            stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12.6193 14.6875C12.6193 15.625 14.3868 17.5 14.8401 17.5C16.201 17.5 17.4096 15.9372 18.0143 14.6875C18.6191 13.1247 18.4677 9.21906 16.6544 3.90625C15.3325 2.95469 14.0049 2.65 12.6192 2.5L11.6668 5"
+                                            stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M6.25841 10H6.25M13.75 10H13.7416" stroke="currentColor"
+                                            stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Discord Community
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="w-full pl-[19%] mx-auto flex flex-col min-h-screen gap-0.5 pr-6">
+            <div class="w-full pt-6">
+                <div style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03));"
+                    class="flex border border-white/10 items-center rounded-t-2xl justify-between gap-10 py-3 px-6">
+                    <div>
+                        <ul class="flex items-center gap-1">
+                            <li>
+                                <a href="#">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.33535 3.0434L3.84368 6.5434C3.09368 7.12673 2.48535 8.3684 2.48535 9.31006V15.4851C2.48535 17.4184 4.06035 19.0017 5.99368 19.0017H15.6437C17.577 19.0017 19.152 17.4184 19.152 15.4934V9.42673C19.152 8.4184 18.477 7.12673 17.652 6.55173L12.502 2.9434C11.3354 2.12673 9.46035 2.1684 8.33535 3.0434Z"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M7.22847 15.8599L14.9297 15.8613" stroke="white" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.4231 11.0425L8.75101 7.7146C9.14403 7.32158 9.14403 6.67846 8.75101 6.28544L5.4231 2.95752"
+                                        stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <li><a class="text-white/50 text-sm" href="#">Dashboard</a></li>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.4231 11.0425L8.75101 7.7146C9.14403 7.32158 9.14403 6.67846 8.75101 6.28544L5.4231 2.95752"
+                                        stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <li><a class="text-white text-sm" href="#">Overview</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <a style="box-shadow: 0px 0px 30px 0px #3A48E080;"
+                            class="inline-flex overflow-hidden relative items-center gap-2 text-white text-sm py-2 px-3 bg-[#3A48E0] rounded-lg"
+                            href="#">
+                            <img class="absolute bottom-0 left-0" src="./img/header/btn-shadow.png" alt="shadow">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.99992 12.5L7.49992 10M9.99992 12.5C11.164 12.0573 12.2807 11.499 13.3333 10.8334M9.99992 12.5V16.6667C9.99992 16.6667 12.5249 16.2084 13.3333 15C14.2333 13.65 13.3333 10.8334 13.3333 10.8334M7.49992 10C7.94337 8.84957 8.50175 7.74676 9.16659 6.70838C10.1376 5.15587 11.4896 3.87758 13.0941 2.99512C14.6986 2.11266 16.5021 1.65535 18.3333 1.66671C18.3333 3.93338 17.6833 7.91671 13.3333 10.8334M7.49992 10H3.33325C3.33325 10 3.79159 7.47504 4.99992 6.66671C6.34992 5.76671 9.16659 6.66671 9.16659 6.66671M3.74992 13.75C2.49992 14.8 2.08325 17.9167 2.08325 17.9167C2.08325 17.9167 5.19992 17.5 6.24992 16.25C6.84159 15.55 6.83325 14.475 6.17492 13.825C5.85101 13.5159 5.42433 13.3372 4.97677 13.3234C4.52922 13.3096 4.09232 13.4615 3.74992 13.75Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            Start Challenge
+                        </a>
+                        <button class="p-2 rounded-lg relative "
+                            style="background: linear-gradient(242.84deg, rgba(255, 255, 255, 0.05) 38.05%, rgba(255, 255, 255, 0) 88.58%); border: 1px solid white; border-image-source: linear-gradient(264.81deg, rgba(255, 255, 255, 0.2) 5.47%, rgba(255, 255, 255, 0.1) 79.17%);">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.0167 2.4248C7.25841 2.4248 5.01674 4.66647 5.01674 7.4248V9.83314C5.01674 10.3415 4.80007 11.1165 4.54174 11.5498L3.58341 13.1415C2.99174 14.1248 3.40007 15.2165 4.48341 15.5831C8.07507 16.7831 11.9501 16.7831 15.5417 15.5831C16.5501 15.2498 16.9917 14.0581 16.4417 13.1415L15.4834 11.5498C15.2334 11.1165 15.0167 10.3415 15.0167 9.83314V7.4248C15.0167 4.6748 12.7667 2.4248 10.0167 2.4248Z"
+                                    stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" />
+                                <path
+                                    d="M11.5584 2.6667C11.3001 2.5917 11.0334 2.53337 10.7584 2.50003C9.95843 2.40003 9.19176 2.45837 8.4751 2.6667C8.71676 2.05003 9.31676 1.6167 10.0168 1.6167C10.7168 1.6167 11.3168 2.05003 11.5584 2.6667Z"
+                                    stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M12.5166 15.8833C12.5166 17.2583 11.3916 18.3833 10.0166 18.3833C9.33327 18.3833 8.69993 18.1 8.24993 17.65C7.79993 17.2 7.5166 16.5666 7.5166 15.8833"
+                                    stroke="white" stroke-width="1.5" stroke-miterlimit="10" />
+                            </svg>
+
+                            <span class="absolute top-2 right-2">
+                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="4" cy="4" r="3.5" fill="#51D4FE" stroke="#303137" />
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="flex text-white uppercase text-sm items-center gap-1">
+                            EN
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                    fill="none">
+                                    <path
+                                        d="M11.4392 4.89746L7.63589 8.70079C7.18672 9.14996 6.45172 9.14996 6.00255 8.70079L2.19922 4.89746"
+                                        stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="flex items-center gap-2 border border-white/10 p-1 rounded-lg"
+                            style="background: linear-gradient(242.84deg, rgba(255, 255, 255, 0.05) 38.05%, rgba(255, 255, 255, 0) 88.58%);">
+                            <img class="w-9 h-9 rounded-lg object-cover" src="./img/header/ava.png" alt="avatar">
+                            <p class="text-white text-sm">Username</p>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                    fill="none">
+                                    <path
+                                        d="M11.4392 4.89746L7.63589 8.70079C7.18672 9.14996 6.45172 9.14996 6.00255 8.70079L2.19922 4.89746"
+                                        stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-10 bg-no-repeat w-full bg-cover px-6 border-t border-l border-white/10 relative"
+                style="background: linear-gradient(164.05deg, rgba(255, 255, 255, 0.03) 4.26%, rgba(13, 14, 16, 0) 84.16%);">
+                <img class="absolute top-0 right-0 select-none w-full -z-10" src="./img/billing/bg.png" alt="bg">
+
+                <div class="flex items-center justify-between mb-8">
+                    <div class="flex items-center gap-4">
+                        <span class="flex">
+                            <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_6746)">
+                                    <rect width="56" height="56" rx="28" fill="#4852F5" fill-opacity="0.15" />
+                                    <g filter="url(#filter0_f_1_6746)">
+                                        <ellipse cx="28.5" cy="49" rx="16.5" ry="16" fill="#4852F5"
+                                            fill-opacity="0.6" />
+                                    </g>
+                                    <path
+                                        d="M26.7516 32.8594V34.8894C26.7516 36.6094 25.1516 37.9994 23.1816 37.9994C21.2116 37.9994 19.6016 36.6094 19.6016 34.8894V32.8594C19.6016 34.5794 21.2016 35.7994 23.1816 35.7994C25.1516 35.7994 26.7516 34.5694 26.7516 32.8594Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M26.7501 30.1117C26.7501 30.6117 26.6101 31.0717 26.3701 31.4717C25.7801 32.4417 24.57 33.0517 23.17 33.0517C21.77 33.0517 20.56 32.4317 19.97 31.4717C19.73 31.0717 19.5901 30.6117 19.5901 30.1117C19.5901 29.2517 19.9901 28.4817 20.6301 27.9217C21.2801 27.3517 22.17 27.0117 23.16 27.0117C24.15 27.0117 25.0401 27.3617 25.6901 27.9217C26.3501 28.4717 26.7501 29.2517 26.7501 30.1117Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M26.7516 30.11V32.86C26.7516 34.58 25.1516 35.8 23.1816 35.8C21.2116 35.8 19.6016 34.57 19.6016 32.86V30.11C19.6016 28.39 21.2016 27 23.1816 27C24.1716 27 25.0616 27.35 25.7116 27.91C26.3516 28.47 26.7516 29.25 26.7516 30.11Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M38 26.9692V29.0292C38 29.5792 37.56 30.0292 37 30.0492H35.0399C33.9599 30.0492 32.97 29.2592 32.88 28.1792C32.82 27.5492 33.0599 26.9592 33.4799 26.5492C33.8499 26.1692 34.36 25.9492 34.92 25.9492H37C37.56 25.9692 38 26.4192 38 26.9692Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M18 26.5V24.5C18 21.78 19.64 19.88 22.19 19.56C22.45 19.52 22.72 19.5 23 19.5H32C32.26 19.5 32.51 19.51 32.75 19.55C35.33 19.85 37 21.76 37 24.5V25.95H34.92C34.36 25.95 33.85 26.17 33.48 26.55C33.06 26.96 32.82 27.55 32.88 28.18C32.97 29.26 33.96 30.05 35.04 30.05H37V31.5C37 34.5 35 36.5 32 36.5H29.5"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <rect x="0.5" y="0.5" width="55" height="55" rx="27.5"
+                                    stroke="url(#paint0_linear_1_6746)" />
+                                <defs>
+                                    <filter id="filter0_f_1_6746" x="-8" y="13" width="73" height="72"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_1_6746" />
+                                    </filter>
+                                    <linearGradient id="paint0_linear_1_6746" x1="78" y1="22" x2="72.7555" y2="-6.98719"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#4852F5" stop-opacity="0.2" />
+                                        <stop offset="1" stop-color="#4852F5" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_1_6746">
+                                        <rect width="56" height="56" rx="28" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                        <h2 class="text-white text-2xl">Payouts</h2>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <button
+                            class="text-white text-sm bg-[#4852F533] py-3 px-5 inline-flex items-center gap-3  border border-[#4852F533] rounded-lg relative">
+                            <img class="absolute bottom-0 left-0 w-full select-none" src="./img/button-s-shadow.png"
+                                alt="shadow">
+                            <span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.6667 14.6654V7.33203" stroke="white" stroke-width="1.2"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M12.6667 4.66536V1.33203" stroke="white" stroke-width="1.2"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M8 14.6654V11.332" stroke="white" stroke-width="1.2" stroke-miterlimit="10"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M8 8.66536V1.33203" stroke="white" stroke-width="1.2"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M3.33325 14.6654V7.33203" stroke="white" stroke-width="1.2"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M3.33325 4.66536V1.33203" stroke="white" stroke-width="1.2"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M2 7.33203H4.66667" stroke="white" stroke-width="1.2"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M11.3333 7.33203H13.9999" stroke="white" stroke-width="1.2"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M6.66675 8.66797H9.33341" stroke="white" stroke-width="1.2"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            Payout settings
+                        </button>
+                        <button
+                            class="text-white text-sm bg-[#4852F533] py-3 px-5 inline-flex items-center gap-3  border border-[#4852F533] rounded-lg relative">
+                            <img class="absolute bottom-0 left-0 w-full select-none" src="./img/button-s-shadow.png"
+                                alt="shadow">
+                            <span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M4.75342 12.2057H10.0868C11.9268 12.2057 13.4201 10.7124 13.4201 8.8724C13.4201 7.0324 11.9268 5.53906 10.0868 5.53906H2.75342"
+                                        stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M4.28674 7.2063L2.58008 5.49964L4.28674 3.79297" stroke="white"
+                                        stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            Request payment
+                        </button>
+                    </div>
+                </div>
+
+                <div class="p-4 border-t border-l rounded-2xl mb-6 border-white/10"
+                    style="background: linear-gradient(106.61deg, rgba(255, 255, 255, 0.024) 11.86%, rgba(255, 255, 255, 0) 52.65%);">
+                    <h3 class="text-white text-lg mb-6">Total Earnings</h3>
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="p-4 border border-white/10 rounded-2xl relative"
+                            style="background: linear-gradient(223.49deg, rgba(255, 255, 255, 0.036) 29.09%, rgba(255, 255, 255, 0.0075) 64.37%);">
+                            <img class="absolute top-0 right-0 select-none" src="./img/payouts/card-1.png" alt="shadow">
+                            <span class="flex mb-3">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.66734 18.3333H13.334C16.684 18.3333 17.284 16.9917 17.459 15.3583L18.084 8.69167C18.309 6.65833 17.7257 5 14.1673 5H5.834C2.27567 5 1.69234 6.65833 1.91734 8.69167L2.54234 15.3583C2.71734 16.9917 3.31734 18.3333 6.66734 18.3333Z"
+                                        stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M6.66602 5.0013V4.33464C6.66602 2.85964 6.66602 1.66797 9.33268 1.66797H10.666C13.3327 1.66797 13.3327 2.85964 13.3327 4.33464V5.0013"
+                                        stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M11.6673 10.8333V11.6667C11.6673 11.675 11.6673 11.675 11.6673 11.6833C11.6673 12.5917 11.659 13.3333 10.0007 13.3333C8.35065 13.3333 8.33398 12.6 8.33398 11.6917V10.8333C8.33398 10 8.33398 10 9.16732 10H10.834C11.6673 10 11.6673 10 11.6673 10.8333Z"
+                                        stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M18.041 9.16797C16.116 10.568 13.916 11.4013 11.666 11.6846" stroke="white"
+                                        stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M2.18359 9.39062C4.05859 10.674 6.17526 11.449 8.33359 11.6906"
+                                        stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <h4 class="text-white text-base mb-8"><span class="text-white/70">for</span> Affiliate</h4>
+                            <p class="text-[32px] pb-3 border-b border-white/10 mb-3"
+                                style="background: linear-gradient(90.65deg, rgba(172, 215, 255, 0.88) 0.56%, #4852F5 94.27%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                                $16566</p>
+                            <p class="text-white/70">Available from <span class="text-white/10">10 Nov 2024</span></p>
+                        </div>
+
+                        <div class="p-4 border border-white/10 rounded-2xl relative"
+                            style="background: linear-gradient(223.49deg, rgba(255, 255, 255, 0.036) 29.09%, rgba(255, 255, 255, 0.0075) 64.37%);">
+                            <span class="flex mb-3">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18.3327 10.8346V7.5013C18.3327 3.33464 16.666 1.66797 12.4993 1.66797H7.49935C3.33268 1.66797 1.66602 3.33464 1.66602 7.5013V12.5013C1.66602 16.668 3.33268 18.3346 7.49935 18.3346H10.8327"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M6.10742 12.0758L8.09076 9.50078C8.37409 9.13411 8.8991 9.06745 9.26576 9.35079L10.7908 10.5508C11.1574 10.8341 11.6824 10.7675 11.9658 10.4091L13.8908 7.92578"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M16.2337 13.1813L16.467 13.6562C16.5837 13.8896 16.8753 14.1062 17.1337 14.1562L17.4503 14.2062C18.4003 14.3646 18.6253 15.0646 17.942 15.7562L17.6503 16.0479C17.4587 16.2479 17.3503 16.6312 17.4087 16.8979L17.4503 17.0729C17.7087 18.2229 17.1003 18.6646 16.1003 18.0646L15.8837 17.9396C15.6253 17.7896 15.2087 17.7896 14.9503 17.9396L14.7337 18.0646C13.7253 18.6729 13.117 18.2229 13.3837 17.0729L13.4253 16.8979C13.4837 16.6312 13.3753 16.2479 13.1837 16.0479L12.892 15.7562C12.2087 15.0646 12.4337 14.3646 13.3837 14.2062L13.7003 14.1562C13.9503 14.1146 14.2503 13.8896 14.367 13.6562L14.6003 13.1813C15.0503 12.2729 15.7837 12.2729 16.2337 13.1813Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <h4 class="text-white text-base mb-8"><span class="text-white/70">for</span> Trading</h4>
+                            <p class="text-[32px] pb-3 border-b border-white/10 mb-3"
+                                style="background: linear-gradient(90.65deg, rgba(172, 215, 255, 0.88) 0.56%, #4852F5 94.27%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                                $16566</p>
+                            <p class="text-white/70">Available from <span class="text-white/10">10 Nov 2024</span></p>
+                        </div>
+
+                        <div class="p-4 border flex flex-col max-w-[242px] border-white/10 rounded-2xl relative" style="background: linear-gradient(223.49deg, rgba(255, 255, 255, 0.036) 29.09%, rgba(255, 255, 255, 0.0075) 64.37%),
+                        linear-gradient(22.29deg, rgba(72, 82, 245, 0) 9.23%, rgba(72, 82, 245, 0.4) 84.69%); ">
+                            <img class="absolute top-0 right-0" src="./img/payouts/verify.png" alt="verify">
+                            <span class="flex mb-3">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.9584 2.04063C9.5334 1.54896 10.4751 1.54896 11.0584 2.04063L12.3751 3.17396C12.6251 3.39062 13.0917 3.56563 13.4251 3.56563H14.8417C15.7251 3.56563 16.4501 4.29063 16.4501 5.17396V6.59062C16.4501 6.91562 16.6251 7.39063 16.8417 7.64063L17.9751 8.95729C18.4667 9.53229 18.4667 10.474 17.9751 11.0573L16.8417 12.374C16.6251 12.624 16.4501 13.0906 16.4501 13.424V14.8406C16.4501 15.724 15.7251 16.449 14.8417 16.449H13.4251C13.1001 16.449 12.6251 16.624 12.3751 16.8406L11.0584 17.974C10.4834 18.4656 9.54173 18.4656 8.9584 17.974L7.64173 16.8406C7.39173 16.624 6.92506 16.449 6.59173 16.449H5.15006C4.26673 16.449 3.54173 15.724 3.54173 14.8406V13.4156C3.54173 13.0906 3.36673 12.624 3.1584 12.374L2.0334 11.049C1.55007 10.474 1.55007 9.54063 2.0334 8.96563L3.1584 7.64063C3.36673 7.39063 3.54173 6.92396 3.54173 6.59896V5.16562C3.54173 4.28229 4.26673 3.55729 5.15006 3.55729H6.59173C6.91673 3.55729 7.39173 3.38229 7.64173 3.16562L8.9584 2.04063Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M9.26991 12.2006V11.337C9.26991 10.9285 9.35398 10.571 9.52212 10.2646C9.69912 9.95822 9.90708 9.71681 10.146 9.54039C10.3938 9.36397 10.6372 9.19684 10.8761 9.039C11.115 8.88115 11.3186 8.70009 11.4867 8.49582C11.6637 8.28227 11.7522 8.04085 11.7522 7.77159C11.7522 7.35376 11.6062 6.99629 11.3142 6.69916C11.0221 6.40204 10.6327 6.24884 10.146 6.23955C9.63274 6.23955 9.19912 6.41597 8.84513 6.7688C8.5 7.11235 8.30973 7.61374 8.27434 8.27298H7C7.02655 7.24234 7.33628 6.43918 7.9292 5.86351C8.52212 5.28784 9.25664 5 10.1327 5C10.9823 5 11.6726 5.26927 12.2035 5.8078C12.7345 6.33705 13 7.00557 13 7.81337C13 8.22191 12.9159 8.57475 12.7478 8.87187C12.5796 9.16899 12.3761 9.40576 12.1372 9.58217C11.8982 9.75859 11.6593 9.93036 11.4204 10.0975C11.1814 10.2553 10.9735 10.4503 10.7965 10.6825C10.6283 10.9146 10.5442 11.1838 10.5442 11.4903V12.1866L9.26991 12.2006ZM10.5575 14.7354C10.3894 14.9118 10.1814 15 9.93363 15C9.68584 15 9.47788 14.9118 9.30973 14.7354C9.14159 14.5497 9.05752 14.3268 9.05752 14.0669C9.05752 13.8069 9.14159 13.5887 9.30973 13.4123C9.47788 13.2266 9.68584 13.1337 9.93363 13.1337C10.1814 13.1337 10.3894 13.2266 10.5575 13.4123C10.7345 13.5887 10.823 13.8069 10.823 14.0669C10.823 14.3268 10.7345 14.5497 10.5575 14.7354Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h4 class="text-white text-base mb-3">FXIFY Support</h4>
+                            <p class="text-white/50 text-sm mb-4">Our customer service is <br> fully at your disposal.
+                            </p>
+                            <a class="flex items-center gap-3 text-white text-sm py-2 px-4 border border-white/10 rounded-lg mt-auto"
+                                style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);"
+                                href="#">
+                                Help Center & Support
+                                <span class="flex">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.61914 3.95312L13.6658 7.99979L9.61914 12.0465" stroke="currentColor"
+                                            stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.33398 8H13.554" stroke="currentColor" stroke-width="1.5"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-3">
+                            <h2 class="text-white text-lg">History</h2>
+                            <div class="p-1 border border-white/10 rounded-xl inline-flex items-center"
+                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                <button
+                                    class="text-white text-sm py-1.5 px-4 rounded-lg border overflow-hidden border-[#4852F533] bg-[#4852F50D] relative">
+                                    <img class="absolute bottom-0 left-0 h-full select-none" src="./img/activeBtn.png"
+                                        alt="shadow">
+                                    All
+                                </button>
+                                <button class="text-white/50 text-sm py-1.5 px-4 rounded-lg">Prop</button>
+                                <button class="text-white/50 text-sm py-1.5 px-4 rounded-lg">Affiliate</button>
+                            </div>
+                        </div>
+                        <div class="p-1 border border-white/10 rounded-xl inline-flex items-center"
+                            style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                            <button
+                                class="text-white text-sm py-1.5 px-4 rounded-lg border overflow-hidden border-[#4852F533] bg-[#4852F50D] relative">
+                                <img class="absolute bottom-0 left-0 h-full select-none" src="./img/activeBtn.png"
+                                    alt="shadow">
+                                All
+                            </button>
+                            <button class="text-white/50 text-sm py-1.5 px-4 rounded-lg">Submitted</button>
+                            <button class="text-white/50 text-sm py-1.5 px-4 rounded-lg">Approved</button>
+                            <button class="text-white/50 text-sm py-1.5 px-4 rounded-lg">Rejected</button>
+                        </div>
+                    </div>
+
+                    <div class="p-4 border-t border-l border-white/10 mb-8 rounded-2xl"
+                        style="background: linear-gradient(165.83deg, rgba(255, 255, 255, 0.024) 4.29%, rgba(255, 255, 255, 0.01) 72.39%);">
+                        <div class="flex items-center justify-between mb-6">
+                            <h2 class="text-white text-lg">All</h2>
+                            <div class="flex items-center gap-2">
+                                <p class="inline-flex items-center gap-2 py-2 px-4 text-white text-sm border border-white/10 rounded-2xl"
+                                    style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                    05/27/2024 - 06/26/2024
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.66675 1.66602V4.16602" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M13.3333 1.66602V4.16602" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M2.91675 7.57422H17.0834" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M17.5 7.08268V14.166C17.5 16.666 16.25 18.3327 13.3333 18.3327H6.66667C3.75 18.3327 2.5 16.666 2.5 14.166V7.08268C2.5 4.58268 3.75 2.91602 6.66667 2.91602H13.3333C16.25 2.91602 17.5 4.58268 17.5 7.08268Z"
+                                                stroke="white" stroke-width="1.2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M13.0788 11.4167H13.0863" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M13.0788 13.9167H13.0863" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.99632 11.4167H10.0038" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.99632 13.9167H10.0038" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6.91185 11.4167H6.91933" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6.91185 13.9167H6.91933" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </p>
+                                <div class="inline-flex items-center gap-2 py-1 pr-2 pl-4 text-white text-sm border border-white/10 rounded-2xl"
+                                    style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                    <div class="flex items-center gap-3">
+                                        <span class="flex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.66658 14.0007C11.1644 14.0007 13.9999 11.1651 13.9999 7.66732C13.9999 4.16951 11.1644 1.33398 7.66658 1.33398C4.16878 1.33398 1.33325 4.16951 1.33325 7.66732C1.33325 11.1651 4.16878 14.0007 7.66658 14.0007Z"
+                                                    stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M14.6666 14.6673L13.3333 13.334" stroke="white"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                        <input class="border-none outline-none bg-transparent" type="text"
+                                            placeholder="Search account">
+                                    </div>
+                                    <button class="text-white text-sm py-1 px-4 border border-white/10 rounded-full"
+                                        style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-3 border-b border-b-white/10 mb-3">
+                            <table class="w-full">
+                                <thead>
+                                    <tr>
+                                        <th class="py-2.5 uppercase px-4 text-left text-white/50 text-xs">№</th>
+                                        <th class="py-2.5 uppercase px-4 text-left text-white/50 text-xs">
+                                            <span class="flex items-center justify-between" >
+                                                Payout ID
+                                                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.82895 6.5L4.54562 3.78333C4.86646 3.4625 5.39145 3.4625 5.71229 3.78333L8.42896 6.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.17105 13.5L5.45438 16.2167C5.13354 16.5375 4.60855 16.5375 4.28771 16.2167L1.57104 13.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                            </span>
+                                        </th>
+                                        <th class="py-2.5 uppercase px-4 text-left text-white/50 text-xs">
+                                            <span class="flex items-center justify-between" >
+                                                Payout Type
+                                                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.82895 6.5L4.54562 3.78333C4.86646 3.4625 5.39145 3.4625 5.71229 3.78333L8.42896 6.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.17105 13.5L5.45438 16.2167C5.13354 16.5375 4.60855 16.5375 4.28771 16.2167L1.57104 13.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                            </span>
+                                        </th>
+                                        <th class="py-2.5 uppercase px-4 text-left text-white/50 text-xs">
+                                            <span class="flex items-center justify-between" >
+                                                AMOUNT
+                                                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.82895 6.5L4.54562 3.78333C4.86646 3.4625 5.39145 3.4625 5.71229 3.78333L8.42896 6.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.17105 13.5L5.45438 16.2167C5.13354 16.5375 4.60855 16.5375 4.28771 16.2167L1.57104 13.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                            </span>
+                                        </th>
+                                        <th class="py-2.5 uppercase px-4 text-left text-white/50 text-xs">
+                                            <span class="flex items-center justify-between" >
+                                                STATUS
+                                                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.82895 6.5L4.54562 3.78333C4.86646 3.4625 5.39145 3.4625 5.71229 3.78333L8.42896 6.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.17105 13.5L5.45438 16.2167C5.13354 16.5375 4.60855 16.5375 4.28771 16.2167L1.57104 13.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                            </span>
+                                        </th>
+                                        <th class="py-2.5 uppercase px-4 text-left text-white/50 text-xs">
+                                            <span class="flex items-center justify-between" >
+                                                Date Requested
+                                                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.82895 6.5L4.54562 3.78333C4.86646 3.4625 5.39145 3.4625 5.71229 3.78333L8.42896 6.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.17105 13.5L5.45438 16.2167C5.13354 16.5375 4.60855 16.5375 4.28771 16.2167L1.57104 13.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                            </span>
+                                        </th>
+                                        <th class="py-2.5 uppercase px-4 text-left text-white/50 text-xs">
+                                            <span class="flex items-center justify-between" >
+                                                DATE paid
+                                                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.82895 6.5L4.54562 3.78333C4.86646 3.4625 5.39145 3.4625 5.71229 3.78333L8.42896 6.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.17105 13.5L5.45438 16.2167C5.13354 16.5375 4.60855 16.5375 4.28771 16.2167L1.57104 13.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                            </span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="text-white bg-[#FFFFFF05] ">
+                                        <td class="table-statistics p-4 text-sm">1</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M10.7799 5.3693L10.0999 4.5793C9.96994 4.4293 9.86494 4.1493 9.86494 3.9493V3.0993C9.86494 2.5693 9.42994 2.1343 8.89994 2.1343H8.04994C7.85494 2.1343 7.56994 2.0293 7.41994 1.8993L6.62994 1.2193C6.28494 0.924297 5.71994 0.924297 5.36994 1.2193L4.58494 1.9043C4.43494 2.0293 4.14994 2.1343 3.95494 2.1343H3.08994C2.55994 2.1343 2.12494 2.5693 2.12494 3.0993V3.9543C2.12494 4.1493 2.01994 4.4293 1.89494 4.5793L1.21994 5.3743C0.929941 5.7193 0.929941 6.2793 1.21994 6.6243L1.89494 7.4193C2.01994 7.5693 2.12494 7.8493 2.12494 8.0443V8.8993C2.12494 9.4293 2.55994 9.8643 3.08994 9.8643H3.95494C4.14994 9.8643 4.43494 9.9693 4.58494 10.0993L5.37494 10.7793C5.71994 11.0743 6.28494 11.0743 6.63494 10.7793L7.42494 10.0993C7.57494 9.9693 7.85494 9.8643 8.05494 9.8643H8.90494C9.43494 9.8643 9.86994 9.4293 9.86994 8.8993V8.0493C9.86994 7.8543 9.97494 7.5693 10.1049 7.4193L10.7849 6.6293C11.0749 6.2843 11.0749 5.7143 10.7799 5.3693ZM8.07994 5.0543L5.66494 7.4693C5.59494 7.5393 5.49994 7.5793 5.39994 7.5793C5.29994 7.5793 5.20494 7.5393 5.13494 7.4693L3.92494 6.2593C3.77994 6.1143 3.77994 5.8743 3.92494 5.7293C4.06994 5.5843 4.30994 5.5843 4.45494 5.7293L5.39994 6.6743L7.54994 4.5243C7.69494 4.3793 7.93494 4.3793 8.07994 4.5243C8.22494 4.6693 8.22494 4.9093 8.07994 5.0543Z"
+                                                        fill="#15FFAB" />
+                                                </svg>
+                                                Paid
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white">
+                                        <td class="table-statistics p-4 text-sm">2</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5.99992 1.83203C3.70409 1.83203 1.83325 3.70286 1.83325 5.9987C1.83325 8.29453 3.70409 10.1654 5.99992 10.1654C8.29575 10.1654 10.1666 8.29453 10.1666 5.9987C10.1666 3.70286 8.29575 1.83203 5.99992 1.83203ZM7.99159 5.04036L5.62909 7.40286C5.57075 7.4612 5.49159 7.49453 5.40825 7.49453C5.32492 7.49453 5.24575 7.4612 5.18742 7.40286L4.00825 6.2237C3.88742 6.10286 3.88742 5.90286 4.00825 5.78203C4.12909 5.6612 4.32909 5.6612 4.44992 5.78203L5.40825 6.74036L7.54992 4.5987C7.67075 4.47786 7.87075 4.47786 7.99159 4.5987C8.11242 4.71953 8.11242 4.91536 7.99159 5.04036Z" fill="white"/>
+                                                        </svg>
+                                                Approved
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white bg-[#FFFFFF05] ">
+                                        <td class="table-statistics p-4 text-sm">3</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.17488 1H4.82488C4.30488 1 3.87988 1.42 3.87988 1.94V2.41C3.87988 2.93 4.29988 3.35 4.81988 3.35H7.17488C7.69488 3.35 8.11488 2.93 8.11488 2.41V1.94C8.11988 1.42 7.69488 1 7.17488 1Z" fill="#51D4FE"/>
+                                                        <path d="M8.62002 2.4117C8.62002 3.2067 7.97002 3.8567 7.17502 3.8567H4.82502C4.03002 3.8567 3.38002 3.2067 3.38002 2.4117C3.38002 2.1317 3.08002 1.9567 2.83002 2.0867C2.12502 2.4617 1.64502 3.2067 1.64502 4.0617V8.7667C1.64502 9.9967 2.65002 11.0017 3.88002 11.0017H8.12002C9.35002 11.0017 10.355 9.9967 10.355 8.7667V4.0617C10.355 3.2067 9.87502 2.4617 9.17002 2.0867C8.92002 1.9567 8.62002 2.1317 8.62002 2.4117ZM7.67002 6.3667L5.67002 8.3667C5.59502 8.4417 5.50002 8.4767 5.40502 8.4767C5.31002 8.4767 5.21502 8.4417 5.14002 8.3667L4.39002 7.6167C4.24502 7.4717 4.24502 7.2317 4.39002 7.0867C4.53502 6.9417 4.77502 6.9417 4.92002 7.0867L5.40502 7.5717L7.14002 5.8367C7.28502 5.6917 7.52502 5.6917 7.67002 5.8367C7.81502 5.9817 7.81502 6.2217 7.67002 6.3667Z" fill="#51D4FE"/>
+                                                        </svg>
+                                                Submitted
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white">
+                                        <td class="table-statistics p-4 text-sm">4</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5.99992 1.83203C3.70409 1.83203 1.83325 3.70286 1.83325 5.9987C1.83325 8.29453 3.70409 10.1654 5.99992 10.1654C8.29575 10.1654 10.1666 8.29453 10.1666 5.9987C10.1666 3.70286 8.29575 1.83203 5.99992 1.83203ZM7.99159 5.04036L5.62909 7.40286C5.57075 7.4612 5.49159 7.49453 5.40825 7.49453C5.32492 7.49453 5.24575 7.4612 5.18742 7.40286L4.00825 6.2237C3.88742 6.10286 3.88742 5.90286 4.00825 5.78203C4.12909 5.6612 4.32909 5.6612 4.44992 5.78203L5.40825 6.74036L7.54992 4.5987C7.67075 4.47786 7.87075 4.47786 7.99159 4.5987C8.11242 4.71953 8.11242 4.91536 7.99159 5.04036Z" fill="white"/>
+                                                        </svg>
+                                                    Approved
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white bg-[#FFFFFF05] ">
+                                        <td class="table-statistics p-4 text-sm">5</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M10.7799 5.3693L10.0999 4.5793C9.96994 4.4293 9.86494 4.1493 9.86494 3.9493V3.0993C9.86494 2.5693 9.42994 2.1343 8.89994 2.1343H8.04994C7.85494 2.1343 7.56994 2.0293 7.41994 1.8993L6.62994 1.2193C6.28494 0.924297 5.71994 0.924297 5.36994 1.2193L4.58494 1.9043C4.43494 2.0293 4.14994 2.1343 3.95494 2.1343H3.08994C2.55994 2.1343 2.12494 2.5693 2.12494 3.0993V3.9543C2.12494 4.1493 2.01994 4.4293 1.89494 4.5793L1.21994 5.3743C0.929941 5.7193 0.929941 6.2793 1.21994 6.6243L1.89494 7.4193C2.01994 7.5693 2.12494 7.8493 2.12494 8.0443V8.8993C2.12494 9.4293 2.55994 9.8643 3.08994 9.8643H3.95494C4.14994 9.8643 4.43494 9.9693 4.58494 10.0993L5.37494 10.7793C5.71994 11.0743 6.28494 11.0743 6.63494 10.7793L7.42494 10.0993C7.57494 9.9693 7.85494 9.8643 8.05494 9.8643H8.90494C9.43494 9.8643 9.86994 9.4293 9.86994 8.8993V8.0493C9.86994 7.8543 9.97494 7.5693 10.1049 7.4193L10.7849 6.6293C11.0749 6.2843 11.0749 5.7143 10.7799 5.3693ZM8.07994 5.0543L5.66494 7.4693C5.59494 7.5393 5.49994 7.5793 5.39994 7.5793C5.29994 7.5793 5.20494 7.5393 5.13494 7.4693L3.92494 6.2593C3.77994 6.1143 3.77994 5.8743 3.92494 5.7293C4.06994 5.5843 4.30994 5.5843 4.45494 5.7293L5.39994 6.6743L7.54994 4.5243C7.69494 4.3793 7.93494 4.3793 8.07994 4.5243C8.22494 4.6693 8.22494 4.9093 8.07994 5.0543Z"
+                                                        fill="#15FFAB" />
+                                                </svg>
+                                                Paid
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white">
+                                        <td class="table-statistics p-4 text-sm">6</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M10.7799 5.3693L10.0999 4.5793C9.96994 4.4293 9.86494 4.1493 9.86494 3.9493V3.0993C9.86494 2.5693 9.42994 2.1343 8.89994 2.1343H8.04994C7.85494 2.1343 7.56994 2.0293 7.41994 1.8993L6.62994 1.2193C6.28494 0.924297 5.71994 0.924297 5.36994 1.2193L4.58494 1.9043C4.43494 2.0293 4.14994 2.1343 3.95494 2.1343H3.08994C2.55994 2.1343 2.12494 2.5693 2.12494 3.0993V3.9543C2.12494 4.1493 2.01994 4.4293 1.89494 4.5793L1.21994 5.3743C0.929941 5.7193 0.929941 6.2793 1.21994 6.6243L1.89494 7.4193C2.01994 7.5693 2.12494 7.8493 2.12494 8.0443V8.8993C2.12494 9.4293 2.55994 9.8643 3.08994 9.8643H3.95494C4.14994 9.8643 4.43494 9.9693 4.58494 10.0993L5.37494 10.7793C5.71994 11.0743 6.28494 11.0743 6.63494 10.7793L7.42494 10.0993C7.57494 9.9693 7.85494 9.8643 8.05494 9.8643H8.90494C9.43494 9.8643 9.86994 9.4293 9.86994 8.8993V8.0493C9.86994 7.8543 9.97494 7.5693 10.1049 7.4193L10.7849 6.6293C11.0749 6.2843 11.0749 5.7143 10.7799 5.3693ZM8.07994 5.0543L5.66494 7.4693C5.59494 7.5393 5.49994 7.5793 5.39994 7.5793C5.29994 7.5793 5.20494 7.5393 5.13494 7.4693L3.92494 6.2593C3.77994 6.1143 3.77994 5.8743 3.92494 5.7293C4.06994 5.5843 4.30994 5.5843 4.45494 5.7293L5.39994 6.6743L7.54994 4.5243C7.69494 4.3793 7.93494 4.3793 8.07994 4.5243C8.22494 4.6693 8.22494 4.9093 8.07994 5.0543Z"
+                                                        fill="#15FFAB" />
+                                                </svg>
+                                                Paid
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white bg-[#FFFFFF05] ">
+                                        <td class="table-statistics p-4 text-sm">7</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M10.7799 5.3693L10.0999 4.5793C9.96994 4.4293 9.86494 4.1493 9.86494 3.9493V3.0993C9.86494 2.5693 9.42994 2.1343 8.89994 2.1343H8.04994C7.85494 2.1343 7.56994 2.0293 7.41994 1.8993L6.62994 1.2193C6.28494 0.924297 5.71994 0.924297 5.36994 1.2193L4.58494 1.9043C4.43494 2.0293 4.14994 2.1343 3.95494 2.1343H3.08994C2.55994 2.1343 2.12494 2.5693 2.12494 3.0993V3.9543C2.12494 4.1493 2.01994 4.4293 1.89494 4.5793L1.21994 5.3743C0.929941 5.7193 0.929941 6.2793 1.21994 6.6243L1.89494 7.4193C2.01994 7.5693 2.12494 7.8493 2.12494 8.0443V8.8993C2.12494 9.4293 2.55994 9.8643 3.08994 9.8643H3.95494C4.14994 9.8643 4.43494 9.9693 4.58494 10.0993L5.37494 10.7793C5.71994 11.0743 6.28494 11.0743 6.63494 10.7793L7.42494 10.0993C7.57494 9.9693 7.85494 9.8643 8.05494 9.8643H8.90494C9.43494 9.8643 9.86994 9.4293 9.86994 8.8993V8.0493C9.86994 7.8543 9.97494 7.5693 10.1049 7.4193L10.7849 6.6293C11.0749 6.2843 11.0749 5.7143 10.7799 5.3693ZM8.07994 5.0543L5.66494 7.4693C5.59494 7.5393 5.49994 7.5793 5.39994 7.5793C5.29994 7.5793 5.20494 7.5393 5.13494 7.4693L3.92494 6.2593C3.77994 6.1143 3.77994 5.8743 3.92494 5.7293C4.06994 5.5843 4.30994 5.5843 4.45494 5.7293L5.39994 6.6743L7.54994 4.5243C7.69494 4.3793 7.93494 4.3793 8.07994 4.5243C8.22494 4.6693 8.22494 4.9093 8.07994 5.0543Z"
+                                                        fill="#15FFAB" />
+                                                </svg>
+                                                Paid
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white">
+                                        <td class="table-statistics p-4 text-sm">8</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M10.7799 5.3693L10.0999 4.5793C9.96994 4.4293 9.86494 4.1493 9.86494 3.9493V3.0993C9.86494 2.5693 9.42994 2.1343 8.89994 2.1343H8.04994C7.85494 2.1343 7.56994 2.0293 7.41994 1.8993L6.62994 1.2193C6.28494 0.924297 5.71994 0.924297 5.36994 1.2193L4.58494 1.9043C4.43494 2.0293 4.14994 2.1343 3.95494 2.1343H3.08994C2.55994 2.1343 2.12494 2.5693 2.12494 3.0993V3.9543C2.12494 4.1493 2.01994 4.4293 1.89494 4.5793L1.21994 5.3743C0.929941 5.7193 0.929941 6.2793 1.21994 6.6243L1.89494 7.4193C2.01994 7.5693 2.12494 7.8493 2.12494 8.0443V8.8993C2.12494 9.4293 2.55994 9.8643 3.08994 9.8643H3.95494C4.14994 9.8643 4.43494 9.9693 4.58494 10.0993L5.37494 10.7793C5.71994 11.0743 6.28494 11.0743 6.63494 10.7793L7.42494 10.0993C7.57494 9.9693 7.85494 9.8643 8.05494 9.8643H8.90494C9.43494 9.8643 9.86994 9.4293 9.86994 8.8993V8.0493C9.86994 7.8543 9.97494 7.5693 10.1049 7.4193L10.7849 6.6293C11.0749 6.2843 11.0749 5.7143 10.7799 5.3693ZM8.07994 5.0543L5.66494 7.4693C5.59494 7.5393 5.49994 7.5793 5.39994 7.5793C5.29994 7.5793 5.20494 7.5393 5.13494 7.4693L3.92494 6.2593C3.77994 6.1143 3.77994 5.8743 3.92494 5.7293C4.06994 5.5843 4.30994 5.5843 4.45494 5.7293L5.39994 6.6743L7.54994 4.5243C7.69494 4.3793 7.93494 4.3793 8.07994 4.5243C8.22494 4.6693 8.22494 4.9093 8.07994 5.0543Z"
+                                                        fill="#15FFAB" />
+                                                </svg>
+                                                Paid
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white bg-[#FFFFFF05] ">
+                                        <td class="table-statistics p-4 text-sm">9</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M10.7799 5.3693L10.0999 4.5793C9.96994 4.4293 9.86494 4.1493 9.86494 3.9493V3.0993C9.86494 2.5693 9.42994 2.1343 8.89994 2.1343H8.04994C7.85494 2.1343 7.56994 2.0293 7.41994 1.8993L6.62994 1.2193C6.28494 0.924297 5.71994 0.924297 5.36994 1.2193L4.58494 1.9043C4.43494 2.0293 4.14994 2.1343 3.95494 2.1343H3.08994C2.55994 2.1343 2.12494 2.5693 2.12494 3.0993V3.9543C2.12494 4.1493 2.01994 4.4293 1.89494 4.5793L1.21994 5.3743C0.929941 5.7193 0.929941 6.2793 1.21994 6.6243L1.89494 7.4193C2.01994 7.5693 2.12494 7.8493 2.12494 8.0443V8.8993C2.12494 9.4293 2.55994 9.8643 3.08994 9.8643H3.95494C4.14994 9.8643 4.43494 9.9693 4.58494 10.0993L5.37494 10.7793C5.71994 11.0743 6.28494 11.0743 6.63494 10.7793L7.42494 10.0993C7.57494 9.9693 7.85494 9.8643 8.05494 9.8643H8.90494C9.43494 9.8643 9.86994 9.4293 9.86994 8.8993V8.0493C9.86994 7.8543 9.97494 7.5693 10.1049 7.4193L10.7849 6.6293C11.0749 6.2843 11.0749 5.7143 10.7799 5.3693ZM8.07994 5.0543L5.66494 7.4693C5.59494 7.5393 5.49994 7.5793 5.39994 7.5793C5.29994 7.5793 5.20494 7.5393 5.13494 7.4693L3.92494 6.2593C3.77994 6.1143 3.77994 5.8743 3.92494 5.7293C4.06994 5.5843 4.30994 5.5843 4.45494 5.7293L5.39994 6.6743L7.54994 4.5243C7.69494 4.3793 7.93494 4.3793 8.07994 4.5243C8.22494 4.6693 8.22494 4.9093 8.07994 5.0543Z"
+                                                        fill="#15FFAB" />
+                                                </svg>
+                                                Paid
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="text-white">
+                                        <td class="table-statistics p-4 text-sm">10</td>
+                                        <td class="table-statistics p-4 text-sm">93954899</td>
+                                        <td class="table-statistics p-4 text-sm">Trading</td>
+                                        <td class="table-statistics p-4 text-sm">$1,999.99</td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span
+                                                class="inline-flex relative  items-center gap-1 px-4 py-1 border border-white/10 rounded-full"
+                                                style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                                <img class="absolute top-0 left-0"
+                                                    src="./img/statistics/table-shadow.png" alt="shadow">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M10.7799 5.3693L10.0999 4.5793C9.96994 4.4293 9.86494 4.1493 9.86494 3.9493V3.0993C9.86494 2.5693 9.42994 2.1343 8.89994 2.1343H8.04994C7.85494 2.1343 7.56994 2.0293 7.41994 1.8993L6.62994 1.2193C6.28494 0.924297 5.71994 0.924297 5.36994 1.2193L4.58494 1.9043C4.43494 2.0293 4.14994 2.1343 3.95494 2.1343H3.08994C2.55994 2.1343 2.12494 2.5693 2.12494 3.0993V3.9543C2.12494 4.1493 2.01994 4.4293 1.89494 4.5793L1.21994 5.3743C0.929941 5.7193 0.929941 6.2793 1.21994 6.6243L1.89494 7.4193C2.01994 7.5693 2.12494 7.8493 2.12494 8.0443V8.8993C2.12494 9.4293 2.55994 9.8643 3.08994 9.8643H3.95494C4.14994 9.8643 4.43494 9.9693 4.58494 10.0993L5.37494 10.7793C5.71994 11.0743 6.28494 11.0743 6.63494 10.7793L7.42494 10.0993C7.57494 9.9693 7.85494 9.8643 8.05494 9.8643H8.90494C9.43494 9.8643 9.86994 9.4293 9.86994 8.8993V8.0493C9.86994 7.8543 9.97494 7.5693 10.1049 7.4193L10.7849 6.6293C11.0749 6.2843 11.0749 5.7143 10.7799 5.3693ZM8.07994 5.0543L5.66494 7.4693C5.59494 7.5393 5.49994 7.5793 5.39994 7.5793C5.29994 7.5793 5.20494 7.5393 5.13494 7.4693L3.92494 6.2593C3.77994 6.1143 3.77994 5.8743 3.92494 5.7293C4.06994 5.5843 4.30994 5.5843 4.45494 5.7293L5.39994 6.6743L7.54994 4.5243C7.69494 4.3793 7.93494 4.3793 8.07994 4.5243C8.22494 4.6693 8.22494 4.9093 8.07994 5.0543Z"
+                                                        fill="#15FFAB" />
+                                                </svg>
+                                                Paid
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                        <td class="table-statistics p-4 text-sm">
+                                            <span>
+                                                <p class="text-white text-sm" >10/11/2024 </p>
+                                                <p class="text-white/50 text-xs" >13:54:53</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <p class="text-white/50 text-sm">Showing 1 to 5 of 100 entries</p>
+                            <div class="flex items-center gap-8">
+                                <div class="flex items-center gap-2">
+                                    <p class="text-white/50 text-sm w-[110px]">Per page:</p>
+                                    <button
+                                        class="flex items-center text-white max-w-[103px] w-full border border-white/10 rounded-xl py-2 px-4 justify-between"
+                                        style="background: #FFFFFF05;">
+                                        10
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.4392 5.89844L8.63589 9.70177C8.18672 10.1509 7.45172 10.1509 7.00255 9.70177L3.19922 5.89844"
+                                                stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <button
+                                        class="text-white  text-sm border border-white/10 rounded-xl w-[36px] h-[36px] flex items-center justify-center"
+                                        style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.5769 11.042L5.24899 7.71411C4.85597 7.32109 4.85597 6.67797 5.24899 6.28495L8.5769 2.95703"
+                                                stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                    <button
+                                        class="text-white text-sm border border-white/10 rounded-xl w-[36px] h-[36px] flex items-center justify-center"
+                                        style="background: linear-gradient(187.15deg, rgba(255, 255, 255, 0.05) 16.19%, rgba(255, 255, 255, 0) 114.12%);">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.42334 11.042L8.75126 7.71411C9.14428 7.32109 9.14428 6.67797 8.75126 6.28495L5.42334 2.95703"
+                                                stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-grow"></div>
+            <footer>
+                <div class="rounded-2xl w-full mx-auto border border-white/10 mb-[52px] border-b-0"
+                    style="background: linear-gradient(165.83deg, rgba(255, 255, 255, 0.024) 4.29%, rgba(255, 255, 255, 0.01) 72.39%); ">
+                    <div class="pb-2.5 border-b border-b-white/10 mb-3 flex items-center pt-5 justify-between">
+                        <ul class="flex items-center gap-11 pl-5">
+                            <li><a class="text-white/50 text-[10px] " href="#">© 2024 FXIFY</a></li>
+                            <li><a class="text-white/50 text-[10px] " href="#">Privacy Policy</a></li>
+                            <li><a class="text-white/50 text-[10px] " href="#">Terms & Conditions</a></li>
+                        </ul>
+                        <ul class="flex items-center gap-1.5 pr-5">
+                            <li>
+                                <a href="http://" target="_blank">
+                                    <img src="./img/footer/logo1.svg" alt="instagram logo" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://" target="_blank">
+                                    <img src="./img/footer/logo3.svg" alt="discord logo" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://" target="_blank">
+                                    <img src="./img/footer/logo2.svg" alt="discord logo" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="text-white/50 text-[10px] px-5 pb-5">Alinformation provided on this site is intended
+                        solely for the study purposes related to trading on tinancia markets and does not serve in
+                        any way as a specific investment recommendation, business recommendation, investment
+                        opportunity analysis or similar genera recommendation regardina the tradina of investment
+                        instruments.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
