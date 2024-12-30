@@ -62,3 +62,24 @@ document.querySelectorAll('.checkbox').forEach(function (checkbox) {
     }
   })
 })
+
+const start_btnChange = document.querySelectorAll('.start_btnChange');
+const start_challengeSec = document.querySelectorAll('.start_challenge-sec');
+
+start_btnChange.forEach((button, index) => {
+    button.addEventListener('click', () => {
+        start_btnChange.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        start_challengeSec.forEach(section => section.classList.remove('active'));
+        start_challengeSec[index].classList.add('active');
+    });
+});
+
+const initialActiveButton2 = document.querySelector('.start_btnChange.active');
+if (initialActiveButton2) {
+    const initialSectionIndex = initialActiveButton2.getAttribute('data-section');
+    start_challengeSec.forEach((section, index) => {
+        section.classList.toggle('active', index == initialSectionIndex);
+    });
+}

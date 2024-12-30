@@ -649,6 +649,9 @@ video {
 .mb-9 {
   margin-bottom: 2.25rem;
 }
+.mb-\[200px\] {
+  margin-bottom: 200px;
+}
 .mb-\[20px\] {
   margin-bottom: 20px;
 }
@@ -688,6 +691,9 @@ video {
 .mb-\[64px\] {
   margin-bottom: 64px;
 }
+.mb-\[70px\] {
+  margin-bottom: 70px;
+}
 .mb-\[76px\] {
   margin-bottom: 76px;
 }
@@ -715,14 +721,14 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
+.mt-\[100px\] {
+  margin-top: 100px;
+}
 .mt-\[2px\] {
   margin-top: 2px;
 }
 .mt-auto {
   margin-top: auto;
-}
-.mb-\[70px\] {
-  margin-bottom: 70px;
 }
 .block {
   display: block;
@@ -954,6 +960,9 @@ video {
 }
 .max-w-\[322px\] {
   max-width: 322px;
+}
+.max-w-\[333px\] {
+  max-width: 333px;
 }
 .max-w-\[355px\] {
   max-width: 355px;
@@ -1326,6 +1335,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(14 15 17 / var(--tw-bg-opacity));
 }
+.bg-\[\#111214\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 18 20 / var(--tw-bg-opacity));
+}
 .bg-\[\#151618\] {
   --tw-bg-opacity: 1;
   background-color: rgb(21 22 24 / var(--tw-bg-opacity));
@@ -1547,6 +1560,10 @@ video {
   padding-top: 18px;
   padding-bottom: 18px;
 }
+.py-\[22px\] {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
 .py-\[24px\] {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -1558,10 +1575,6 @@ video {
 .py-\[7px\] {
   padding-top: 7px;
   padding-bottom: 7px;
-}
-.py-\[22px\] {
-  padding-top: 22px;
-  padding-bottom: 22px;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -1592,6 +1605,9 @@ video {
 }
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+.pb-\[34px\] {
+  padding-bottom: 34px;
 }
 .pb-\[40px\] {
   padding-bottom: 40px;
@@ -2207,6 +2223,41 @@ body {
 }
 .change__sec-sertificate.active {
   display: block;
+}
+
+.start_btnChange {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #FFFFFF80;
+  padding: 6px 16px;
+  border: 1px solid #FFFFFF1A;
+  border-radius: 9999px;
+}
+
+.start_btnChange.active {
+  border: 1px solid rgba(72, 82, 245, 0.2) !important;
+  color: #ffffff !important;
+  background: #4852f50d !important;
+}
+
+.start_btnChange img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.start_btnChange.active img {
+  display: block;
+}
+
+.start_challenge-sec {
+  display: none;
+}
+.start_challenge-sec.active {
+  display: block !important;
 }
 .placeholder\:text-white\/50::-moz-placeholder {
   color: rgb(255 255 255 / 0.5);

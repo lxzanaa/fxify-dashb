@@ -284,3 +284,38 @@ body {
 .change__sec-sertificate.active {
   display: block;
 }
+
+.start_btnChange {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #FFFFFF80;
+  padding: 6px 16px;
+  border: 1px solid #FFFFFF1A;
+  border-radius: 9999px;
+}
+
+.start_btnChange.active {
+  border: 1px solid rgba(72, 82, 245, 0.2) !important;
+  color: #ffffff !important;
+  background: #4852f50d !important;
+}
+
+.start_btnChange img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.start_btnChange.active img {
+  display: block;
+}
+
+.start_challenge-sec {
+  display: none;
+}
+.start_challenge-sec.active {
+  display: block !important;
+}
