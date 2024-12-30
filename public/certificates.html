@@ -12,7 +12,8 @@
 
 <body class="bg-[#0D0E10]">
     <div class="flex gap-6">
-        <div  class="custom-scroll flex flex-col max-w-[18%] w-full h-full fixed overflow-y-scroll border-r border-r-white/10 py-10 px-6">
+        <div
+            class="custom-scroll flex flex-col max-w-[18%] w-full h-full fixed overflow-y-scroll border-r border-r-white/10 py-10 px-6">
             <a href="./index.html" class="mb-6 flex">
                 <img src="./img/header/logo.svg" alt="logo">
             </a>
@@ -521,8 +522,695 @@
                     </div>
                 </div>
             </div>
-            <div class="pt-10 bg-no-repeat w-full bg-cover px-6 border-t border-l border-white/10 relative" style="background: linear-gradient(164.05deg, rgba(255, 255, 255, 0.03) 4.26%, rgba(13, 14, 16, 0) 84.16%);">
+            <div class="pt-10 bg-no-repeat w-full bg-cover px-6 border-t border-l border-white/10 relative"
+                style="background: linear-gradient(164.05deg, rgba(255, 255, 255, 0.03) 4.26%, rgba(13, 14, 16, 0) 84.16%);">
                 <img class="absolute top-0 right-0 select-none w-full -z-10" src="./img/billing/bg.png" alt="bg">
+
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="flex">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_9434)">
+                                <rect width="56" height="56" rx="28" fill="#4852F5" fill-opacity="0.15" />
+                                <g filter="url(#filter0_f_1_9434)">
+                                    <ellipse cx="28.5" cy="49" rx="16.5" ry="16" fill="#4852F5" fill-opacity="0.6" />
+                                </g>
+                                <path
+                                    d="M37 23V33C37 36 35.5 38 32 38H24C20.5 38 19 36 19 33V23C19 20 20.5 18 24 18H32C35.5 18 37 20 37 23Z"
+                                    stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M31.5 18V25.86C31.5 26.3 30.98 26.52 30.66 26.23L28.34 24.09C28.15 23.91 27.85 23.91 27.66 24.09L25.34 26.23C25.02 26.52 24.5 26.3 24.5 25.86V18H31.5Z"
+                                    stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M29.25 30H33.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M25 34H33.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <rect x="0.5" y="0.5" width="55" height="55" rx="27.5"
+                                stroke="url(#paint0_linear_1_9434)" />
+                            <defs>
+                                <filter id="filter0_f_1_9434" x="-8" y="13" width="73" height="72"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                                    <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_1_9434" />
+                                </filter>
+                                <linearGradient id="paint0_linear_1_9434" x1="78" y1="22" x2="72.7555" y2="-6.98719"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#4852F5" stop-opacity="0.2" />
+                                    <stop offset="1" stop-color="#4852F5" />
+                                </linearGradient>
+                                <clipPath id="clip0_1_9434">
+                                    <rect width="56" height="56" rx="28" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                    <div>
+                        <h2 class="text-white text-2xl font-semibold">Certificates</h2>
+                        <p class="text-white/50 text-sm">View all of your certificates in one place. </p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2 flex-wrap pb-12">
+                    <button data-section="0" class="change_sertificate active">
+                        <img src="./img/activeBtn.png" alt="shadow">
+                        <span class="flex">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.6667 8.00065C14.6667 4.32732 11.6734 1.33398 8.00004 1.33398C4.32671 1.33398 1.33337 4.32732 1.33337 8.00065C1.33337 9.93398 2.16671 11.674 3.48671 12.894C3.48671 12.9007 3.48671 12.9007 3.48004 12.9073C3.54671 12.974 3.62671 13.0273 3.69337 13.0873C3.73337 13.1206 3.76671 13.154 3.80671 13.1807C3.92671 13.2807 4.06004 13.374 4.18671 13.4673C4.23337 13.5007 4.27337 13.5273 4.32004 13.5607C4.44671 13.6473 4.58004 13.7273 4.72004 13.8007C4.76671 13.8273 4.82004 13.8607 4.86671 13.8873C5.00004 13.9607 5.14004 14.0273 5.28671 14.0873C5.34004 14.114 5.39337 14.1406 5.44671 14.1607C5.59337 14.2206 5.74004 14.274 5.88671 14.3207C5.94004 14.3406 5.99337 14.3607 6.04671 14.374C6.20671 14.4206 6.36671 14.4607 6.52671 14.5007C6.57337 14.514 6.62004 14.5273 6.67337 14.534C6.86004 14.574 7.04671 14.6007 7.24004 14.6207C7.26671 14.6207 7.29337 14.6273 7.32004 14.634C7.54671 14.654 7.77337 14.6673 8.00004 14.6673C8.22671 14.6673 8.45337 14.654 8.67337 14.634C8.70004 14.634 8.72671 14.6273 8.75337 14.6207C8.94671 14.6007 9.13337 14.574 9.32004 14.534C9.36671 14.5273 9.41337 14.5073 9.46671 14.5007C9.62671 14.4607 9.79337 14.4273 9.94671 14.374C10 14.354 10.0534 14.334 10.1067 14.3207C10.2534 14.2673 10.4067 14.2206 10.5467 14.1607C10.6 14.1406 10.6534 14.114 10.7067 14.0873C10.8467 14.0273 10.9867 13.9607 11.1267 13.8873C11.18 13.8607 11.2267 13.8273 11.2734 13.8007C11.4067 13.7207 11.54 13.6473 11.6734 13.5607C11.72 13.534 11.76 13.5007 11.8067 13.4673C11.94 13.374 12.0667 13.2807 12.1867 13.1807C12.2267 13.1473 12.26 13.114 12.3 13.0873C12.3734 13.0273 12.4467 12.9673 12.5134 12.9073C12.5134 12.9007 12.5134 12.9007 12.5067 12.894C13.8334 11.674 14.6667 9.93398 14.6667 8.00065ZM11.2934 11.314C9.48671 10.1006 6.52671 10.1006 4.70671 11.314C4.41337 11.5073 4.17337 11.734 3.97337 11.9806C2.96004 10.954 2.33337 9.54732 2.33337 8.00065C2.33337 4.87398 4.87337 2.33398 8.00004 2.33398C11.1267 2.33398 13.6667 4.87398 13.6667 8.00065C13.6667 9.54732 13.04 10.954 12.0267 11.9806C11.8334 11.734 11.5867 11.5073 11.2934 11.314Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M8 4.61914C6.62 4.61914 5.5 5.73914 5.5 7.11914C5.5 8.47247 6.56 9.57247 7.96667 9.61247C7.98667 9.61247 8.01333 9.61247 8.02667 9.61247C8.04 9.61247 8.06 9.61247 8.07333 9.61247C8.08 9.61247 8.08667 9.61247 8.08667 9.61247C9.43333 9.56581 10.4933 8.47247 10.5 7.11914C10.5 5.73914 9.38 4.61914 8 4.61914Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </span>
+                        Account
+                    </button>
+                    <button data-section="1" class="change_sertificate">
+                        <img src="./img/activeBtn.png" alt="shadow">
+                        <span class="flex">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.36 2.74591L8.69337 1.37258C8.31337 1.23258 7.69337 1.23258 7.31337 1.37258L3.6467 2.74591C2.94003 3.01258 2.3667 3.83924 2.3667 4.59258V9.99258C2.3667 10.5326 2.72003 11.2459 3.15337 11.5659L6.82003 14.3059C7.4667 14.7926 8.5267 14.7926 9.17337 14.3059L12.84 11.5659C13.2734 11.2392 13.6267 10.5326 13.6267 9.99258V4.59258C13.6334 3.83924 13.06 3.01258 12.36 2.74591ZM10.32 6.47924L7.45337 9.34591C7.35337 9.44591 7.2267 9.49258 7.10003 9.49258C6.97337 9.49258 6.8467 9.44591 6.7467 9.34591L5.68003 8.26591C5.4867 8.07258 5.4867 7.75258 5.68003 7.55924C5.87337 7.36591 6.19337 7.36591 6.3867 7.55924L7.1067 8.27924L9.62003 5.76591C9.81337 5.57258 10.1334 5.57258 10.3267 5.76591C10.52 5.95924 10.52 6.28591 10.32 6.47924Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </span>
+                        Security
+                    </button>
+                    <button data-section="2" class="change_sertificate">
+                        <img src="./img/activeBtn.png" alt="shadow">
+                        <span class="flex">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.47592 3.00821C3.50653 2.56011 4.5944 2.22405 5.73952 2L5.79678 2C5.91129 2.22405 6.08306 2.56011 6.19757 2.84017C7.4572 2.67214 8.65958 2.67214 9.86196 2.84017C9.97647 2.56011 10.1482 2.28006 10.2628 2L10.32 2C11.4651 2.16803 12.553 2.5041 13.5836 3.00821C15.6448 6.03282 16.2174 9.00143 15.9311 11.914L15.9311 11.97C14.557 12.9782 13.2401 13.5384 11.9232 13.9304L11.8659 13.9304C11.5796 13.5384 11.2934 13.0903 11.0643 12.6422L11.0643 12.5862C11.5224 12.4181 11.9232 12.2501 12.324 12.026C12.3812 12.026 12.3812 11.97 12.324 11.97C12.2667 11.914 12.1522 11.858 12.0949 11.802L12.0377 11.802C9.40391 12.9782 6.59836 12.9782 3.96458 11.802L3.90732 11.802C3.85007 11.858 3.73556 11.914 3.6783 11.97C3.62104 11.97 3.6783 12.026 3.6783 12.026C4.07909 12.2501 4.47989 12.4741 4.93793 12.5862C4.93793 12.5862 4.99519 12.6422 4.93793 12.6422C4.70891 13.0903 4.42263 13.5384 4.13635 13.9304L4.07909 13.9304C2.7622 13.5383 1.44531 12.9222 0.071165 11.97L0.071165 11.914C-0.272371 8.55334 0.643725 5.64074 2.47592 3.00821ZM10.6635 10.1777C11.4651 10.1777 12.0949 9.44952 12.0949 8.60935C12.0949 7.76918 11.4651 7.04103 10.6635 7.04103C9.86196 7.04103 9.23214 7.76917 9.23214 8.60935C9.23214 9.44952 9.86196 10.1777 10.6635 10.1777ZM5.33873 10.1777C6.14031 10.1777 6.77013 9.44952 6.77013 8.60935C6.77013 7.76917 6.14031 7.04103 5.33873 7.04103C4.53714 7.04103 3.90732 7.76917 3.90732 8.60935C3.90732 9.44952 4.53714 10.1777 5.33873 10.1777Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </span>
+                        Discord
+                    </button>
+                    <button data-section="3" class="change_sertificate">
+                        <img src="./img/activeBtn.png" alt="shadow">
+                        <span class="flex">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.37037" y="3.37037" width="13.2593" height="8.59259" rx="1.60494"
+                                    fill="currentColor" stroke="currentColor" stroke-width="0.740741" />
+                                <path
+                                    d="M4.79875 7.05696L4.80534 7.05693L4.7816 7.057C4.78819 7.05702 4.79382 7.05699 4.79774 7.05697L4.79875 7.05696Z"
+                                    fill="currentColor" stroke="#242741" stroke-width="0.987654"
+                                    stroke-linecap="round" />
+                                <mask id="path-3-inside-1_555_1422" fill="currentColor">
+                                    <path
+                                        d="M4.81911 10.1395C4.33977 10.1395 3.86045 10.0134 3.48623 9.76528C3.13304 9.52981 2.927 9.18924 2.927 8.82763C2.927 8.46603 3.12883 8.12125 3.48623 7.88579C4.23466 7.38963 5.40355 7.38963 6.14777 7.88579C6.50097 8.12125 6.707 8.46603 6.707 8.82343C6.707 9.18503 6.50517 9.52561 6.14777 9.76528C5.77776 10.0176 5.29844 10.1395 4.81911 10.1395ZM3.8352 8.41137C3.6544 8.53331 3.5577 8.68047 3.5577 8.82763C3.5577 8.9748 3.6586 9.12196 3.8352 9.2439C4.36919 9.60129 5.26481 9.60129 5.7988 9.2439C5.9796 9.12196 6.08051 8.9748 6.0763 8.82763C6.0763 8.68047 5.9754 8.53331 5.7988 8.41137C5.26901 8.05397 4.36919 8.05397 3.8352 8.41137Z" />
+                                </mask>
+                                <path
+                                    d="M4.81911 10.1395C4.33977 10.1395 3.86045 10.0134 3.48623 9.76528C3.13304 9.52981 2.927 9.18924 2.927 8.82763C2.927 8.46603 3.12883 8.12125 3.48623 7.88579C4.23466 7.38963 5.40355 7.38963 6.14777 7.88579C6.50097 8.12125 6.707 8.46603 6.707 8.82343C6.707 9.18503 6.50517 9.52561 6.14777 9.76528C5.77776 10.0176 5.29844 10.1395 4.81911 10.1395ZM3.8352 8.41137C3.6544 8.53331 3.5577 8.68047 3.5577 8.82763C3.5577 8.9748 3.6586 9.12196 3.8352 9.2439C4.36919 9.60129 5.26481 9.60129 5.7988 9.2439C5.9796 9.12196 6.08051 8.9748 6.0763 8.82763C6.0763 8.68047 5.9754 8.53331 5.7988 8.41137C5.26901 8.05397 4.36919 8.05397 3.8352 8.41137Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M3.48623 9.76528L2.93838 10.5871L2.94052 10.5885L3.48623 9.76528ZM3.48623 7.88579L4.0296 8.71054L4.03195 8.70898L3.48623 7.88579ZM6.14777 7.88579L6.69562 7.06401L6.14777 7.88579ZM6.14777 9.76528L5.59768 8.94496L5.59139 8.94925L6.14777 9.76528ZM3.8352 8.41137L3.28585 7.59058L3.28296 7.59253L3.8352 8.41137ZM3.8352 9.2439L3.27402 10.0566L3.27991 10.0607L3.28586 10.0647L3.8352 9.2439ZM5.7988 9.2439L6.34815 10.0647L6.35104 10.0627L5.7988 9.2439ZM6.0763 8.82763H5.08865V8.84174L5.08905 8.85584L6.0763 8.82763ZM5.7988 8.41137L6.36001 7.59858L6.35115 7.5926L5.7988 8.41137ZM4.81911 9.15184C4.50059 9.15184 4.21869 9.06587 4.03195 8.94208L2.94052 10.5885C3.50221 10.9608 4.17896 11.1271 4.81911 11.1271V9.15184ZM4.03408 8.9435C3.96553 8.8978 3.93381 8.85688 3.92156 8.83643C3.91056 8.81805 3.91466 8.81636 3.91466 8.82763H1.93935C1.93935 9.588 2.37281 10.21 2.93838 10.5871L4.03408 8.9435ZM3.91466 8.82763C3.91466 8.83441 3.91201 8.83025 3.92266 8.81224C3.93422 8.7927 3.96401 8.75375 4.0296 8.71054L2.94287 7.06103C2.35997 7.44506 1.93935 8.07625 1.93935 8.82763H3.91466ZM4.03195 8.70898C4.21649 8.58665 4.4975 8.50133 4.81858 8.50133C5.13985 8.50133 5.41863 8.58671 5.59992 8.70756L6.69562 7.06401C6.13268 6.68871 5.45492 6.52602 4.81858 6.52602C4.18205 6.52602 3.5044 6.68877 2.94052 7.06259L4.03195 8.70898ZM5.59992 8.70756C5.66619 8.75174 5.69846 8.79279 5.71171 8.81499C5.72413 8.8358 5.71935 8.83806 5.71935 8.82343H7.69466C7.69466 8.06924 7.26315 7.44236 6.69562 7.06401L5.59992 8.70756ZM5.71935 8.82343C5.71935 8.81581 5.72247 8.8185 5.71206 8.83603C5.70036 8.85575 5.66887 8.89725 5.5977 8.94499L6.69785 10.5856C7.26987 10.202 7.69466 9.57937 7.69466 8.82343H5.71935ZM5.59139 8.94925C5.41929 9.06659 5.14538 9.15184 4.81911 9.15184V11.1271C5.45149 11.1271 6.13624 10.9685 6.70415 10.5813L5.59139 8.94925ZM3.28296 7.59253C2.96139 7.80941 2.57005 8.22021 2.57005 8.82763H4.54536C4.54536 8.97841 4.4943 9.09184 4.45139 9.15645C4.41128 9.21685 4.37836 9.23633 4.38744 9.23021L3.28296 7.59253ZM2.57005 8.82763C2.57005 9.44331 2.97612 9.85094 3.27402 10.0566L4.39638 8.43116C4.38433 8.42284 4.4129 8.43914 4.45013 8.49457C4.48956 8.55327 4.54536 8.66808 4.54536 8.82763H2.57005ZM3.28586 10.0647C3.75222 10.3768 4.31358 10.4996 4.817 10.4996C5.32043 10.4996 5.88178 10.3768 6.34815 10.0647L5.24946 8.42311C5.18183 8.46838 5.02838 8.52429 4.817 8.52429C4.60562 8.52429 4.45217 8.46838 4.38454 8.42311L3.28586 10.0647ZM6.35104 10.0627C6.65146 9.86012 7.0819 9.44149 7.06355 8.79943L5.08905 8.85584C5.08417 8.68494 5.14334 8.55963 5.18702 8.49457C5.22773 8.43397 5.25975 8.41617 5.24656 8.42506L6.35104 10.0627ZM7.06395 8.82763C7.06395 8.21196 6.65788 7.80433 6.35998 7.59863L5.23763 9.22411C5.24968 9.23243 5.2211 9.21613 5.18387 9.16069C5.14445 9.10199 5.08865 8.98718 5.08865 8.82763H7.06395ZM6.35115 7.5926C5.88476 7.27798 5.32139 7.15567 4.81858 7.15567C4.31538 7.15567 3.75272 7.27812 3.28586 7.59059L4.38454 9.23215C4.45168 9.18722 4.60593 9.13098 4.81858 9.13098C5.03162 9.13098 5.18305 9.18736 5.24646 9.23014L6.35115 7.5926Z"
+                                    fill="#242741" mask="url(#path-3-inside-1_555_1422)" />
+                                <path d="M8.00073 6.73438H11.7341" stroke="#242741" stroke-width="0.987654"
+                                    stroke-linecap="round" />
+                                <path d="M8.00073 8.60156H13.1341" stroke="#242741" stroke-width="0.987654"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        KYC
+                    </button>
+                </div>
+
+                <section class="change__sec-sertificate active">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="text-white text-base">All Certificates</h3>
+                            <div class="flex items-center gap-5">
+                                <p class="flex items-center gap-2 text-white text-sm">
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="4" fill="#4852F5" />
+                                            <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#99DAFF"
+                                                stroke-opacity="0.3" />
+                                            <path d="M5.5 11.0051L7.95149 14L14.5 6" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Show Username
+                                </p>
+                                <p class="flex items-center gap-2 text-white text-sm">
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="4" fill="#4852F5" />
+                                            <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#99DAFF"
+                                                stroke-opacity="0.3" />
+                                            <path d="M5.5 11.0051L7.95149 14L14.5 6" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Blur Name
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Passed The Evaluation</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-1.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Passed The Evaluation</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-1.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Lifetime Payout</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-2.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Payout</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-3.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="change__sec-sertificate">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="text-white text-base">All Certificates</h3>
+                            <div class="flex items-center gap-5">
+                                <p class="flex items-center gap-2 text-white text-sm">
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="4" fill="#4852F5" />
+                                            <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#99DAFF"
+                                                stroke-opacity="0.3" />
+                                            <path d="M5.5 11.0051L7.95149 14L14.5 6" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Show Username
+                                </p>
+                                <p class="flex items-center gap-2 text-white text-sm">
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="4" fill="#4852F5" />
+                                            <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#99DAFF"
+                                                stroke-opacity="0.3" />
+                                            <path d="M5.5 11.0051L7.95149 14L14.5 6" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Blur Name
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Passed The Evaluation</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-1.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Passed The Evaluation</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-1.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Lifetime Payout</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-2.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Payout</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-3.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="change__sec-sertificate">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="text-white text-base">Passing Certificates</h3>
+                            <div class="flex items-center gap-5">
+                                <p class="flex items-center gap-2 text-white text-sm">
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="4" fill="#4852F5" />
+                                            <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#99DAFF"
+                                                stroke-opacity="0.3" />
+                                            <path d="M5.5 11.0051L7.95149 14L14.5 6" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Show Username
+                                </p>
+                                <p class="flex items-center gap-2 text-white text-sm">
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="4" fill="#4852F5" />
+                                            <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#99DAFF"
+                                                stroke-opacity="0.3" />
+                                            <path d="M5.5 11.0051L7.95149 14L14.5 6" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Blur Name
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Passed The Evaluation</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-1.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Passed The Evaluation</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-1.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Max Allocation</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-1.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]"> Payout</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-1.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="change__sec-sertificate">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="text-white text-base">Lifetime Payout Certificates</h3>
+                            <div class="flex items-center gap-5">
+                                <p class="flex items-center gap-2 text-white text-sm">
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="4" fill="#4852F5" />
+                                            <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#99DAFF"
+                                                stroke-opacity="0.3" />
+                                            <path d="M5.5 11.0051L7.95149 14L14.5 6" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Show Username
+                                </p>
+                                <p class="flex items-center gap-2 text-white text-sm">
+                                    <span class="flex">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="4" fill="#4852F5" />
+                                            <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#99DAFF"
+                                                stroke-opacity="0.3" />
+                                            <path d="M5.5 11.0051L7.95149 14L14.5 6" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Blur Name
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Lifetime Payout</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-2.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-[22px] pb-[34px] px-5 border border-white/10  rounded-2xl relative overflow-hidden">
+                                <p class="text-white/50 text-xs mb-2">May 12, 2023</p>
+                                <h2 class="text-white text-xl mb-[70px]">Lifetime Payout</h2>
+                                <img class="max-w-[333px] w-full mx-auto" src="./img/certificates/Certificates-2.png"
+                                    alt="certificate">
+                                <div class="flex items-center justify-center gap-2 py-[22px] bg-[#111214] absolute w-full left-0 bottom-0 border-t border-white/10" style="backdrop-filter: blur(60px)" >
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 bg-[#4852F533] border border-[#4852F533] rounded-lg relative transition-all duration-300 hover:opacity-80" href="#">
+                                        <img class="absolute bottom-0 left-0 w-full" src="./img/button-s-shadow.png" alt="shadow">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <a class="inline-flex text-white text-sm items-center gap-3 py-3 px-5 border border-white/10 rounded-lg relative transition-all duration-300 hover:opacity-80" style="background: linear-gradient(185.85deg, rgba(255, 255, 255, 0.1) 15.16%, rgba(255, 255, 255, 0) 86.96%);" href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10 13.75V3.25M10 13.75L5.5 9.25M10 13.75L14.5 9.25M15.25 16.75H4.75"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Social Post
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
 
             <div class="flex-grow"></div>
@@ -565,6 +1253,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/change.js"></script>
 </body>
 
 </html>
