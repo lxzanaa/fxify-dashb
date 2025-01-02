@@ -660,8 +660,8 @@
                     </div>
                 </div>
                 <section class="start_challenge-sec active">
-                    <div>
-                        <div class="border border-[#D9D9D9]/10 rounded-2xl py-6 px-4 max-w-[60%] mb-8"
+                    <div class="flex items-start gap-4 w-full">
+                        <div class="border border-[#D9D9D9]/10 rounded-2xl py-6 px-4 max-w-[70%] w-full mb-8"
                             style="background: linear-gradient(165.83deg, rgba(255, 255, 255, 0.024) 4.29%, rgba(255, 255, 255, 0.01) 72.39%);">
                             <div class="mb-8">
                                 <div class="flex items-center gap-2 mb-1 ">
@@ -1768,10 +1768,11 @@
                                         </div>
                                         <div class="flex flex-col gap-2">
                                             <label class="text-white/50 text-xs" for="State">State</label>
-                                            <select class="placeholder:text-white/50 placeholder:text-sm text-white text-sm p-4 bg-[#FFFFFF05] border border-white/10 rounded-xl" >
-                                                <option class="text-black" >Cheshire East</option>
-                                                <option class="text-black" >Cheshire East 2</option>
-                                                <option class="text-black" >Cheshire East 3</option>
+                                            <select
+                                                class="placeholder:text-white/50 placeholder:text-sm text-white text-sm p-4 bg-[#FFFFFF05] border border-white/10 rounded-xl">
+                                                <option class="text-black">Cheshire East</option>
+                                                <option class="text-black">Cheshire East 2</option>
+                                                <option class="text-black">Cheshire East 3</option>
                                             </select>
                                         </div>
                                         <div class="flex flex-col gap-2">
@@ -1782,18 +1783,91 @@
                                         </div>
                                         <div class="flex flex-col gap-2 col-span-2">
                                             <label class="text-white/50 text-xs" for="Country">Country</label>
-                                            <select class="placeholder:text-white/50 placeholder:text-sm text-white text-sm p-4 bg-[#FFFFFF05] border border-white/10 rounded-xl" >
-                                                <option class="text-black" >United Kingdom</option>
-                                                <option class="text-black" >United Kingdom 2</option>
-                                                <option class="text-black" >United Kingdom 3</option>
+                                            <select
+                                                class="placeholder:text-white/50 placeholder:text-sm text-white text-sm p-4 bg-[#FFFFFF05] border border-white/10 rounded-xl">
+                                                <option class="text-black">United Kingdom</option>
+                                                <option class="text-black">United Kingdom 2</option>
+                                                <option class="text-black">United Kingdom 3</option>
                                             </select>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
-
-
+                        <div class="max-w-[30%] w-full sticky top-3 border border-[#D9D9D9]/10 rounded-2xl py-6 px-4" style="background: linear-gradient(223.49deg, rgba(255, 255, 255, 0.036) 29.09%, rgba(255, 255, 255, 0.0075) 64.37%);">
+                            <div class="mb-6">
+                                <div class="flex items-center justify-between pb-4 border-b border-white/10 mb-4">
+                                    <p class="text-white text-sm">Total</p>
+                                    <p class="text-white text-sm">$100.00/per month</p>
+                                </div>
+                                <div class="pb-4 border-b border-white/10 mb-4">
+                                    <div class="flex items-center justify-between">
+                                        <p class="text-white text-sm">First pay</p>
+                                        <p class="text-white text-sm">$100.00</p>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <p class="text-white text-sm">Next payments</p>
+                                        <p class="text-white text-sm">$200.00</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <p class="text-white text-sm">To Pay</p>
+                                    <p class="text-white text-sm">$75.75</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-center">
+                                <div class="inline-flex items-center gap-1 p-1 border border-white/10 rounded-xl mb-4">
+                                    <button
+                                        class="relative py-2 px-4 rounded-lg text-white bg-[#4852F50D] border border-[#4852F533] overflow-hidden">
+                                        <img class="absolute bottom-0 left-0 h-full select-none"
+                                            src="./img/activeBtn.png" alt="active">
+                                        Discount Code
+                                    </button>
+                                    <button class="relative py-2 px-4 rounded-lg text-white/50 overflow-hidden">
+                                        <img class="absolute bottom-0 left-0 h-full select-none hidden"
+                                            src="./img/activeBtn.png" alt="active">
+                                        Affiliate Code
+                                    </button>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-center p-1.5 bg-black/10 border border-white/10 rounded-xl justify-between mb-6">
+                                <input
+                                    class="placeholder:text-white/50 px-2 text-white text-sm placeholder:text-sm bg-transparent border-none outline-none"
+                                    placeholder="Enter Discount Code" type="text">
+                                <button
+                                    class="relative py-3 rounded-lg text-white text-sm  transition-all duration-300 hover:opacity-80 px-5 bg-[#4852F533] border border-[#4852F533]">
+                                    <img class="absolute bottom-0 left-0 w-full select-none"
+                                        src="./img/button-s-shadow.png" alt="bg">
+                                    Apply
+                                </button>
+                            </div>
+                            <div class="mb-6">
+                                <p class="text-white text-sm mb-3">By confirming the order:</p>
+                                <label class="flex items-start gap-2">
+                                    <div class="w-5 h-5">
+                                        <input class="w-5 h-5" type="checkbox">
+                                    </div>
+                                    <p class="text-white text-sm">I declare that I have read and agree with <a
+                                            class="underline hover:opacity-80" href="#">Terms &Conditions</a></p>
+                                </label>
+                            </div>
+                            <button
+                                class="flex items-center gap-4 text-white text-sm py-3 px-2.5 w-full bg-[#3A48E0] rounded-lg relative transition-all duration-300 hover:opacity-80 border border-[#99DAFF4D]">
+                                <img class="absolute w-full object-cover h-full bottom-0 left-0"
+                                    src="./img/header/shadow.png" alt="shadow">
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.99992 12.5L7.49992 10M9.99992 12.5C11.164 12.0573 12.2807 11.499 13.3333 10.8334M9.99992 12.5V16.6667C9.99992 16.6667 12.5249 16.2084 13.3333 15C14.2333 13.65 13.3333 10.8334 13.3333 10.8334M7.49992 10C7.94337 8.84957 8.50175 7.74676 9.16659 6.70838C10.1376 5.15587 11.4896 3.87758 13.0941 2.99512C14.6986 2.11266 16.5021 1.65535 18.3333 1.66671C18.3333 3.93338 17.6833 7.91671 13.3333 10.8334M7.49992 10H3.33325C3.33325 10 3.79159 7.47504 4.99992 6.66671C6.34992 5.76671 9.16659 6.66671 9.16659 6.66671M3.74992 13.75C2.49992 14.8 2.08325 17.9167 2.08325 17.9167C2.08325 17.9167 5.19992 17.5 6.24992 16.25C6.84159 15.55 6.83325 14.475 6.17492 13.825C5.85101 13.5159 5.42433 13.3372 4.97677 13.3234C4.52922 13.3096 4.09232 13.4615 3.74992 13.75Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                                Proceed Securely With Payment
+                            </button>
+                        </div>
                     </div>
                 </section>
 
