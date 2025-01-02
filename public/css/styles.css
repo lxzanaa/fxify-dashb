@@ -625,6 +625,9 @@ video {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-20 {
+  margin-bottom: 5rem;
+}
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -696,6 +699,9 @@ video {
 }
 .mb-\[76px\] {
   margin-bottom: 76px;
+}
+.mb-\[91px\] {
+  margin-bottom: 91px;
 }
 .ml-1 {
   margin-left: 0.25rem;
@@ -850,6 +856,9 @@ video {
 .w-3\.5 {
   width: 0.875rem;
 }
+.w-5 {
+  width: 1.25rem;
+}
 .w-6 {
   width: 1.5rem;
 }
@@ -867,6 +876,9 @@ video {
 }
 .w-\[178px\] {
   width: 178px;
+}
+.w-\[190px\] {
+  width: 190px;
 }
 .w-\[1px\] {
   width: 1px;
@@ -976,6 +988,9 @@ video {
 .max-w-\[394px\] {
   max-width: 394px;
 }
+.max-w-\[400px\] {
+  max-width: 400px;
+}
 .max-w-\[404px\] {
   max-width: 404px;
 }
@@ -1023,6 +1038,21 @@ video {
 }
 .max-w-\[923px\] {
   max-width: 923px;
+}
+.max-w-\[\] {
+  max-width: ;
+}
+.max-w-\[70px\] {
+  max-width: 70px;
+}
+.max-w-\[70\] {
+  max-width: 70;
+}
+.max-w-\[70\%\] {
+  max-width: 70%;
+}
+.max-w-\[60\%\] {
+  max-width: 60%;
 }
 .flex-grow {
   flex-grow: 1;
@@ -1268,6 +1298,9 @@ video {
 .border-\[\#99DAFF4D\] {
   border-color: #99DAFF4D;
 }
+.border-\[\#D9D9D9\]\/10 {
+  border-color: rgb(217 217 217 / 0.1);
+}
 .border-\[\#FFFFFF1A\] {
   border-color: #FFFFFF1A;
 }
@@ -1314,6 +1347,9 @@ video {
 .border-r-white\/10 {
   border-right-color: rgb(255 255 255 / 0.1);
 }
+.border-r-white\/80 {
+  border-right-color: rgb(255 255 255 / 0.8);
+}
 .border-t-\[\#4852F5\] {
   --tw-border-opacity: 1;
   border-top-color: rgb(72 82 245 / var(--tw-border-opacity));
@@ -1358,6 +1394,9 @@ video {
 }
 .bg-\[\#4852F533\] {
   background-color: #4852F533;
+}
+.bg-\[\#4852F566\] {
+  background-color: #4852F566;
 }
 .bg-\[\#4852F5\] {
   --tw-bg-opacity: 1;
@@ -1406,6 +1445,9 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+.bg-center {
+  background-position: center;
 }
 .bg-right-top {
   background-position: right top;
@@ -1547,6 +1589,10 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .py-7 {
   padding-top: 1.75rem;
@@ -1836,6 +1882,10 @@ video {
 .text-\[\#FF0000\] {
   --tw-text-opacity: 1;
   color: rgb(255 0 0 / var(--tw-text-opacity));
+}
+.text-\[\#FFAF15\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 175 21 / var(--tw-text-opacity));
 }
 .text-\[\#FFFBA1\] {
   --tw-text-opacity: 1;
