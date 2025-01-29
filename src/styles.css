@@ -4,11 +4,22 @@
 
 @font-face {
   font-family: 'Aventa';
-  src: url('../fonts/Aventa-LightPERSONALUSEONLY.woff2') format('woff2'),
-    url('../fonts/Aventa-LightPERSONALUSEONLY.woff') format('woff'),
-    url('../fonts/Aventa-LightPERSONALUSEONLY.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+  src: "../fonts/Aventa-Regular.ttf";
+}
+
+@font-face {
+  font-family: 'Aventa Bold';
+  src: "../fonts/Aventa-Bold.ttf";
+}
+
+@font-face {
+  font-family: 'Aventa Medium';
+  src: "../fonts/Aventa-Medium.ttf";
+}
+
+@font-face {
+  font-family: 'Aventa SemiBold';
+  src: "../fonts/Aventa-SemiBold.ttf";
 }
 
 html {
@@ -17,6 +28,17 @@ html {
 
 body {
   font-family: 'Aventa', sans-serif;
+}
+
+.font-bold{
+  font-family: 'Aventa Bold', sans-serif;
+}
+
+.font-medium{
+  font-family: 'Aventa Medium', sans-serif;
+}
+.font-semibold{
+  font-family: 'Aventa SemiBold', sans-serif;
 }
 
 .title {
